@@ -1,0 +1,73 @@
+.orderMainDiv{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgb(234, 234, 103); */
+}
+.orderMainDiv input{
+    width: 35%;
+    height: 8%;
+    padding-left: 10px;
+    margin-top: 2%;
+    border: 1px solid lightblue;
+    border-radius: 80px;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+}
+.orderMainDiv ::placeholder{
+    color: rgb(116, 113, 113);
+}
+.doLaundryMainDiv{
+    width: 90%;
+    height: 83%;
+    margin-top: 2%;
+    overflow-y: scroll;
+    /* background-color: rgb(103, 166, 234); */
+}
+.doLaundryCardDiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* justify-content: space-between; */
+    /* background-color: rgb(103, 234, 169); */
+}
+.cardItems{
+    width: 32.5%;
+    height: 22vh;
+    border-radius: 10px;
+    border: 1px solid lightblue;
+    box-shadow: 0 0 10px rgb(233, 232, 232);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all 350ms ease-in;
+    transform: scale(1.0.2);
+}
+.cardItems:hover{
+    background-color: rgb(241, 241, 241);
+    transform: scale(1.02);
+}
+.imageBorder{
+    width: 32%;
+    height: 75%;
+    border-radius: 10px;
+    background-color: rgb(179, 185, 229);
+    /* cursor: pointer; */
+}
+.writeWrap{
+    width: 55%;
+    height: 80%;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    padding-top: 8px;
+    line-height: 25px;
+    /* background-color: rgb(179, 185, 229); */
+    /* cursor: pointer; */
+}

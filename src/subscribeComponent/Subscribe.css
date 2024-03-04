@@ -1,0 +1,76 @@
+.subscribeMainDiv{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(103, 147, 234); */
+}
+.subscriptioMainDiv{
+    width: 80%;
+    height: 79%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+}
+.subCardDiv{
+    width: 40%;
+    height: 90%;
+    background-color: white;
+    box-shadow: 0 0 10px lightgray;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 350ms ease-in-out;
+    transform: scale(1.0.2);
+}
+.subCardDiv:hover{
+    box-shadow: 0 0 10px rgb(223, 241, 246);
+    border: 1px solid lightblue;
+    transform: scale(1.02);
+    border-radius: 10px;
+}
+.subCardDiv h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-inline: 10%;
+    padding-top: 8%;
+    font-size: 25px;
+}
+.subCardDiv h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-inline: 10%;
+    padding-top: 5%;
+    font-size: 18px;
+    font-weight: 600;
+}
+.subCardDiv p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-inline: 10%;
+    padding-top: 5%;
+    font-size: 12px;
+    font-weight: 600;
+}
+.subCardDiv li{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-inline: 10%;
+    /* padding-top: 3%; */
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 5%;
+}
+.subCardDiv button{
+    width: 90%;
+    height: 40px;
+    background-color: rgb(127, 203, 229);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-inline: 10%;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    margin-top: 15%;
+    margin-left: 4.5%;
+    cursor: pointer;
+    border-radius: 50px;
+}

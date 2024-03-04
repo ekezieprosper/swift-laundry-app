@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.aboutbody{
+    width: 100%;
+    height: 100vh;
+    
+}
+.aboutmainbody{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(245,242,242);
+}
+.aboutusimage{
+    width: 100%;
+    height: 70%;
+    background-color: black;
+    /* background-image: url(public/wash.webp); */
+    /* background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center; */
+    
+    /* object-fit: cover; */
+}
+.aboutusimagee{
+    width: 100%;
+    height: 100%;
+    background-image: url(public/pexel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.abouttext{
+    width: 40%;
+    height: 20%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+.whowearediv{
+    width: 100%;
+    height: 40%;
+    background-color: rgb(245,242,242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+}
+.whoweareimage{
+    width: 45%;
+    height: 50%;
+    background-color: white;
+    position: absolute;
+    top: 455px;
+    display: flex;
+}
+.lefttext{
+    width: 50%;
+    height: 100%;
+    /* background-color: black; */
+}
+.mission{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    /* background-color: red; */
+    font-size: small;
+    gap: 5px;
+    text-align: left;
+    color: rgb(41, 40, 40);
+}
+.mission h1{
+    color: rgb(53,186,234);
+}
+.vision{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: small;
+    /* gap: 5px; */
+    text-align: left;
+    color: rgb(41, 40, 40);
+}
+.vision h1{
+    color: rgb(53,186,234);
+}
+.rightimage{
+    width: 50%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.rightimage img{
+    width: 100%;
+    height: 100%;
+}
+.imagechooseus{
+    width: 100%;
+    height: 60%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whychooseusimage{
+    width: 50%;
+    height: 100%;
+    background-color: purple;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whychooseusimage img{
+    width: 100%;
+    height: 100%;
+}
+.outerimage{
+    width: 90%;
+    height: 90%;
+    background-color: black;
+    position: absolute;
+    left: 90px;
+}
+.whychooseustext{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: aqua; */
+}
+.ourstory{
+    width: 90%;
+    height: 10%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ourstory h1{
+    color: rgb(53,186,234);
+}
+.firststoryline{
+    width: 90%;
+    height: 45%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+.firststory1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.firststory2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.secondstoryline{
+    width: 90%;
+    height: 45%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+.secondstory1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.secondstory2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.ourteamdiv{
+    width: 100%;
+    height: 70%;
+    background-color: rgb(245,242,242);
+}
+.meetourteam{
+    width: 100%;
+    height: 30%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    color: rgb(36, 33, 33);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.meetourteamimage{
+    width: 100%;
+    height: 60%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.tobe{
+    width: 15%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+}
+.tobe img{
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;
+}
+.ibrahim{
+    width: 15%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+}
+.ibrahim img{
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;
+}
+.grace{
+    width: 15%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+}
+.grace img{
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;
+}
+.ekene{
+    width: 15%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+}
+.ekene img{
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;
+}
+.prosper{
+    width: 15%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+}
+.prosper img{
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;
+}

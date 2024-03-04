@@ -1,0 +1,313 @@
+.wholebodya {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 252, 252);
+}
+
+.registerdContainera {
+    height: 89%;
+    width: 35%;
+    background: white;
+    border-radius: 10px;
+    -webkit-box-shadow: -5px -7px 25px -3px rgba(204, 212, 247, 0.69);
+    -moz-box-shadow: -5px -7px 25px -3px rgba(189, 200, 249, 0.69);
+    box-shadow: -5px -7px 25px -3px rgba(189, 200, 249, 0.69);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: aqua; */
+}
+
+
+.registerdLogoContainera {
+    height: 20%;
+    width: 90%;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.spana {
+    height: 50%;
+    width: 90%;
+    /* background: green; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.spana h1 {
+    height: 90%;
+    width: 100%;
+    color: rgb(64, 176, 241);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.registerdLogoContainera span {
+
+    /* background: red; */
+    color: rgb(64, 176, 241);
+}
+
+
+.inputContainersa {
+    height: 60%;
+    width: 83%;
+    /* background: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputContainersa h3 {
+    height: 10%;
+    width: 83%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    /* background: green; */
+
+}
+/* 
+
+.registeredBtnContainera {
+    height: 15%;
+    width: 83%;
+    background: yellow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+} */
+
+.registeredBtnContainera > b{
+    margin-left: 5px;
+    background-color: red;
+}
+
+
+.registeredInputContainer1a {
+    height: 50%;
+    width: 100%;
+    /* background: navy; */
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+
+.registeredInputContainer2a {
+    height: 45%;
+    width: 100%;
+    /* background: lawngreen; */
+    display: flex;
+    margin-top: 1%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.BusinessNamea {
+    height: 39%;
+    width: 100%;
+    padding-left: 10px;
+    outline-color: rgb(190, 190, 255);
+    border: 1px solid rgb(177, 175, 175);
+    border-radius: 10px;
+
+}
+
+.addressa {
+    height: 39%;
+    width: 100%;
+    outline-color: rgb(190, 190, 255);
+    padding-left: 10px;
+    border: 1px solid rgb(177, 175, 175);
+    border-radius: 10px;
+}
+
+
+.emailContainera {
+    height: 100%;
+    width: 50%;
+    /* background: red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+
+.phoneNumberContainera {
+    height: 100%;
+    width: 50%;
+    /* background: green; */
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+
+.emailInputa {
+    height: 30%;
+    width: 95%;
+    padding-left: 10px;
+    outline-color: rgb(190, 190, 255);
+    border: 1px solid rgb(177, 175, 175);
+    border-radius: 10px;
+}
+
+
+.passwordInputa {
+    height: 30%;
+    width: 95%;
+    outline-color: rgb(190, 190, 255);
+    border: 1px solid rgb(177, 175, 175);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.passwordInputa > input{
+    border: 0;
+    outline: none;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.eye_icon{
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(0,0, 0,0.5);
+    margin-right: 5px;
+}
+
+
+.phoneNumberInputa {
+    height: 30%;
+    width: 100%;
+    outline-color: rgb(190, 190, 255);
+    padding-left: 10px;
+    border: 1px solid rgb(177, 175, 175);
+    border-radius: 10px;
+}
+
+
+.confirmPasswordInputa {
+    height: 30%;
+    width: 100%;
+    padding-left: 10px;
+    outline-color: rgb(190, 190, 255);
+    border: 1px solid rgb(177, 175, 175);
+    border-radius: 10px;
+}
+
+
+.signUpa {
+    height: 10%;
+    width: 80%;
+    background: rgb(44, 143, 200);
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.alreadyHaveAccounta {
+    height: 20%;
+    width: 60%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background: red; */
+}
+
+.alreadyHaveAccounta > span {
+    color: black;
+}
+
+.alreadyHaveAccounta b {
+    height: 20%;
+    width: 60%;
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+
+.back_icon{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    background: rgb(44, 143, 200, 0.7);
+    color: white;
+    cursor: pointer;
+}
+
+
+
+@media screen and (width <=414px) {
+    .wholebody {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: aqua; */
+    }
+
+    .bodyspace {
+        width: 80%;
+        height: 85%;
+        /* background-color: white; */
+        border-radius: 10px;
+        box-shadow: 6px 9px 16px 4px rgba(82, 67, 67, 0.52);
+        -webkit-box-shadow: 6px 9px 16px 4px rgba(82, 67, 67, 0.52);
+        -moz-box-shadow: 6px 9px 16px 4px rgba(82, 67, 67, 0.52);
+    }
+
+    .logo {
+        width: 100%;
+        height: 30%;
+        /* background-color: black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: x-small;
+    }
+
+}
+
+

@@ -1,0 +1,677 @@
+.planMainDiv {
+    width: 100%;
+    height: 95vh;
+    background-image: url("./basket.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(90, 107, 90);
+    position: relative;
+}
+
+
+.noto_bubbles{
+    height:200px;
+    width:200px;
+    position: absolute;
+    bottom: -1px;
+    right: 30px;
+    z-index: 999999;
+}
+
+.planTopDiv {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: rgb(167, 160, 160); */
+}
+
+p {
+    z-index: 999;
+
+}
+
+samp {
+    z-index: 999;
+
+}
+
+
+.planTopDiv p {
+    font-size: 17px;
+    margin-top: 5%;
+    /* background-color: rgb(214, 151, 151); */
+    color: #3bcfe2;
+}
+
+
+.planTopDiv samp {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #FDFDF7;
+    /* margin-top: 3%; */
+    /* background-color: rgb(214, 151, 151); */
+}
+
+.planBottomDiv {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.monthDiv {
+    width: 23%;
+    height: 85%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    z-index: 1;
+
+}
+
+
+.MoneyContainer1 {
+    height: 35%;
+    width: 90%;
+    /* background: white; */
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+
+.MoneyContainer1 h5 {
+    color: grey;
+    font-size: 11px;
+}
+
+
+.MoneyContainer1 h1 {
+    /* color: red; */
+    color: #0B0B0B;
+    font-size: 30px;
+}
+
+
+.MoneyContainer1 h3 {
+    color: grey;
+    font-size: 14px;
+}
+
+
+.MoneyContainer2 {
+    height: 45%;
+    width: 90%;
+    /* background: purple; */
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.MoneyContainer3 {
+    height: 20%;
+    width: 90%;
+    /* background: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.monthDiv h2 {
+    font-size: 18px;
+    padding-top: 16px;
+}
+
+.monthDiv p {
+    font-size: 14px;
+    padding-top: 14px;
+}
+
+.yearDiv {
+    width: 23%;
+    height: 85%;
+    border-radius: 10px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.yearDiv h2 {
+    font-size: 18px;
+    padding-top: 16px;
+}
+
+.yearDiv p {
+    font-size: 14px;
+    text-align: center;
+    padding-inline: 7%;
+    padding-top: 14px;
+}
+
+
+.Customer {
+    height: 20%;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: red; */
+}
+
+.Pick {
+    height: 20%;
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: red; */
+}
+
+.Prices {
+    height: 20%;
+    width: 45%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.Affordable {
+    height: 20%;
+    width: 45%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.Customer {
+    height: 20%;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.choosePlanBtn {
+    height: 45%;
+    width: 85%;
+    background-color: rgb(64, 176, 241);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+.blur_pic {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+@media screen and (width:320px) {
+    .planMainDiv {
+        width: 100%;
+        height: 95vh;
+        background-image: url("./basket.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rgb(90, 107, 90);
+        position: relative;
+        /* margin-top: 60%; */
+    }
+
+    .planTopDiv {
+        width: 100%;
+        height: 25%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        /* background-color: rgb(167, 160, 160); */
+    }
+
+    p {
+        z-index: 999;
+
+    }
+
+    samp {
+        z-index: 999;
+
+    }
+
+
+    .planTopDiv p {
+        font-size: 17px;
+        margin-top: 5%;
+        /* background-color: rgb(214, 151, 151); */
+        color: #3bcfe2;
+    }
+
+
+    .planTopDiv samp {
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        color: #FDFDF7;
+        /* margin-top: 3%; */
+        /* background-color: rgb(214, 151, 151); */
+    }
+
+    .planBottomDiv {
+        width: 100%;
+        height: 75%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 70px;
+    }
+
+    .monthDiv {
+        width: 80%;
+        height: 85%;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: red;
+        box-shadow: 0 0 10px lightgray;
+        z-index: 1;
+
+    }
+
+
+    .MoneyContainer1 {
+        height: 35%;
+        width: 90%;
+        /* background: white; */
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+
+    .MoneyContainer1 h5 {
+        color: grey;
+        font-size: 11px;
+    }
+
+
+    .MoneyContainer1 h1 {
+        /* color: red; */
+        color: #0B0B0B;
+        font-size: 30px;
+    }
+
+
+    .MoneyContainer1 h3 {
+        color: grey;
+        font-size: 14px;
+    }
+
+
+    .MoneyContainer2 {
+        height: 45%;
+        width: 90%;
+        /* background: purple; */
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .MoneyContainer3 {
+        height: 20%;
+        width: 90%;
+        /* background: green; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .monthDiv h2 {
+        font-size: 18px;
+        padding-top: 16px;
+    }
+
+    .monthDiv p {
+        font-size: 14px;
+        padding-top: 14px;
+    }
+
+    .yearDiv {
+        width: 80%;
+        height: 85%;
+        border-radius: 10px;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        box-shadow: 0 0 10px lightgray;
+
+    }
+
+    .yearDiv h2 {
+        font-size: 18px;
+        padding-top: 16px;
+    }
+
+    .yearDiv p {
+        font-size: 14px;
+        text-align: center;
+        padding-inline: 7%;
+        padding-top: 14px;
+    }
+
+
+    .Customer {
+        height:65%;
+        width:70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .Pick {
+        height: 20%;
+        width: 90%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .Prices {
+        height: 20%;
+        width: 90%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .Affordable {
+        height: 20%;
+        width: 90%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .Customer {
+        height: 20%;
+        width: 60%;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+
+
+    .choosePlanBtn {
+        height: 45%;
+        width: 85%;
+        background-color: rgb(64, 176, 241);
+        border-radius: 10px;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+
+
+    .blur_pic {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+}
+
+
+@media screen and (max-width:500px) {
+    .planMainDiv {
+        width: 100%;
+        height: 230vh;
+        background-image: url("./basket.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-color: rgb(90, 107, 90); */
+        position: relative;
+        /* margin-top: 110%; */
+    }
+    
+    .planTopDiv {
+        width: 100%;
+        height: 7%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        /* background-color: rgb(167, 160, 160); */
+    }
+    
+    p {
+        z-index: 999;
+    
+    }
+    
+    samp {
+        z-index: 999;
+    
+    }
+    
+    
+    .planTopDiv p {
+        font-size: 17px;
+        margin-top: 5%;
+        /* background-color: rgb(214, 151, 151); */
+        color: #3bcfe2;
+    }
+    
+    
+    .planTopDiv samp {
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        color: #FDFDF7;
+        /* margin-top: 3%; */
+        /* background-color: rgb(214, 151, 151); */
+    }
+    
+    .planBottomDiv {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        /* background: red; */
+    }
+    
+    .monthDiv {
+        width: 65%;
+        height: 43%;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        z-index: 1;
+    
+    }
+        
+    .yearDiv {
+        width: 65%;
+        height: 43%;
+        border-radius: 10px;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        margin-bottom: 15%;
+    }
+    
+    
+    
+    .MoneyContainer1 {
+        height: 35%;
+        width: 90%;
+        /* background: white; */
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    
+    
+    .MoneyContainer1 h5 {
+        color: grey;
+        font-size: 11px;
+    }
+    
+    
+    .MoneyContainer1 h1 {
+        /* color: red; */
+        color: #0B0B0B;
+        font-size: 30px;
+    }
+    
+    
+    .MoneyContainer1 h3 {
+        color: grey;
+        font-size: 14px;
+    }
+    
+    
+    .MoneyContainer2 {
+        height: 45%;
+        width: 90%;
+        /* background: purple; */
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    
+    .MoneyContainer3 {
+        height: 20%;
+        width: 90%;
+        /* background: green; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .monthDiv h2 {
+        font-size: 18px;
+        padding-top: 16px;
+    }
+    
+    .monthDiv p {
+        font-size: 14px;
+        padding-top: 14px;
+    }
+
+    .yearDiv h2 {
+        font-size: 18px;
+        padding-top: 16px;
+    }
+    
+    .yearDiv p {
+        font-size: 14px;
+        text-align: center;
+        padding-inline: 7%;
+        padding-top: 14px;
+    }
+    
+    
+    .Customer {
+        height: 20%;
+        width: 60%;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+    
+    .Pick {
+        height: 20%;
+        width: 90%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .Prices {
+        height: 20%;
+        width: 90%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .Affordable {
+        height: 20%;
+        width: 90%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .Customer {
+        height: 20%;
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    
+    .choosePlanBtn {
+        height: 45%;
+        width: 85%;
+        background-color: rgb(64, 176, 241);
+        border-radius: 10px;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+    
+    
+    .blur_pic {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+}

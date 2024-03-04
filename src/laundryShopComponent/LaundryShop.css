@@ -1,0 +1,586 @@
+.laundryShopMainDiv {
+    width: 100%;
+    height: 110vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: rgb(180, 198, 226); */
+}
+
+.laundryTopDiv {
+    width: 100%;
+    height: 18%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: rgb(167, 160, 160); */
+}
+
+.laundryTopDiv p {
+    font-size: 17px;
+    margin-top: 5%;
+    /* background-color: rgb(214, 151, 151); */
+}
+
+.laundryTopDiv samp {
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    /* margin-top: 3%; */
+    /* background-color: rgb(214, 151, 151); */
+}
+
+.laundryBottomDiv {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    /* position: relative; */
+    /* background-color: rgb(207, 201, 201); */
+}
+
+.pickUpDivs {
+    width: 23%;
+    height: 75%;
+    border-radius: 5px;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 0 7px lightgray;
+}
+
+
+.pickUpDivs h5{
+    color: rgba(255, 0, 0, 0.493);
+}
+
+
+/* .foot{
+    height: 20%;
+    width: 100%;
+    background: red;
+} */
+
+.pickUpLogos {
+    width: 85%;
+    height: 45%;
+    border-radius: 5px;
+    margin-top: 6%;
+    background-color: rgb(194, 185, 185);
+}
+
+.pickUpDivs h2 {
+    font-size: 18px;
+    padding-top: 16px;
+}
+
+.pickUpDivs p {
+    font-size: 14px;
+    text-align: center;
+    padding-inline: 7%;
+    padding-top: 14px;
+}
+
+.BTN1 {
+    width: 85%;
+    height: 10%;
+    font-size: 12px;
+    margin-top: 5%;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: rgb(64, 176, 241);
+
+}
+
+.washDivs {
+    width: 23%;
+    height: 75%;
+    border-radius: 5px;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 0 7px lightgray;
+}
+
+
+.washDivs h5{
+    color:rgba(255, 0, 0, 0.493) ;
+}
+
+.washLogos {
+    width: 85%;
+    height: 45%;
+    border-radius: 5px;
+    margin-top: 6%;
+    background-color: rgb(194, 185, 185);
+}
+
+.washDivs h2 {
+    font-size: 18px;
+    padding-top: 16px;
+}
+
+.washDivs p {
+    font-size: 14px;
+    text-align: center;
+    padding-inline: 7%;
+    padding-top: 14px;
+}
+.BTN2 {
+    width: 85%;
+    height: 10%;
+    font-size: 12px;
+    margin-top: 5%;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: rgb(64, 176, 241);
+
+}
+
+.deliverDivs {
+    width: 23%;
+    height: 75%;
+    border-radius: 5px;
+    margin-bottom: 3%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 7px lightgray;
+}
+
+
+.deliverDivs h5{
+    color: rgba(255, 0, 0, 0.493);
+}
+
+.deliverLogos {
+    width: 85%;
+    height: 45%;
+    border-radius: 5px;
+    margin-top: 6%;
+    background-color: rgb(194, 185, 185);
+}
+
+.deliverDivs h2 {
+    font-size: 18px;
+    padding-top: 16px;
+}
+
+.deliverDivs p {
+    font-size: 14px;
+    text-align: center;
+    padding-inline: 7%;
+    padding-top: 14px;
+}
+.BTN3 {
+    width: 85%;
+    height: 10%;
+    font-size: 12px;
+    margin-top: 5%;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: rgb(64, 176, 241);
+
+}
+.absolute1 {
+    position: absolute;
+    left: 50%;
+    font-size: 15px;
+    top: 279%;
+    cursor: pointer;
+    border: none;
+    color: black;
+}
+
+/* .divbg{
+    height: 50%;
+    width: 90%;
+    background: red;
+} */
+
+
+.wash1{
+    height: 100%;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 500px) {
+    .laundryShopMainDiv {
+        width: 100%;
+        height: 225vh;
+        /* margin-top: 38%; */
+        /* background-color: rgb(180, 198, 226); */
+    }
+    
+    .laundryTopDiv {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        /* background-color: rgb(167, 160, 160); */
+    }
+    
+    .laundryTopDiv p {
+        font-size: 16px;
+        margin-top: 5%;
+        /* background-color: rgb(214, 151, 151); */
+    }
+    
+    .laundryTopDiv samp {
+        font-size: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        /* margin-top: 3%; */
+        /* background-color: rgb(214, 151, 151); */
+    }
+    
+    .laundryBottomDiv {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1px;
+        /* position: relative; */
+        /* margin-top: 25px; */
+        /* background-color: rgb(72, 122, 108); */
+    }
+    
+    .pickUpDivs {
+        width: 60%;
+        height: 30%;
+        border-radius: 5px;
+        margin-top: 3%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: red; */
+        box-shadow: 0 0 7px lightgray;
+    }
+    
+    
+    .pickUpDivs h5{
+        color: rgba(255, 0, 0, 0.493);
+    }
+    
+    .pickUpLogos {
+        width: 85%;
+        height: 45%;
+        border-radius: 5px;
+        margin-top: 6%;
+        /* background-color: rgb(194, 185, 185); */
+    }
+    
+    .pickUpDivs h2 {
+        font-size: 18px;
+        padding-top: 16px;
+    }
+    
+    .pickUpDivs p {
+        font-size: 14px;
+        text-align: center;
+        padding-inline: 7%;
+        padding-top: 14px;
+    }
+    
+    .BTN1 {
+        width: 85%;
+        height: 10%;
+        font-size: 12px;
+        margin-bottom: 3%;
+        border-radius: 5px;
+        cursor: pointer;
+        border: none;
+        color: white;
+        background-color: rgb(64, 176, 241);
+    
+    }
+    
+    .washDivs {
+        width: 60%;
+        height: 30%;
+        border-radius: 5px;
+        /* margin-bottom: 3%; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: red; */
+        box-shadow: 0 0 7px lightgray;
+    }
+    
+    
+    .washDivs h5{
+        color:rgba(255, 0, 0, 0.493) ;
+    }
+    
+    .washLogos {
+        width: 85%;
+        height: 45%;
+        border-radius: 5px;
+        margin-top: 6%;
+        background-color: rgb(194, 185, 185);
+    }
+    
+    .washDivs h2 {
+        font-size: 18px;
+        padding-top: 16px;
+    }
+    
+    .washDivs p {
+        font-size: 14px;
+        text-align: center;
+        padding-inline: 7%;
+        padding-top: 14px;
+    }
+    .BTN2 {
+        width: 85%;
+        height: 10%;
+        font-size: 12px;
+        margin-bottom: 3%;
+        border-radius: 5px;
+        cursor: pointer;
+        border: none;
+        color: white;
+        background-color: rgb(64, 176, 241);
+    
+    }
+    
+    .deliverDivs {
+        width:60%;
+        height:30%;
+        border-radius: 5px;
+        /* margin-bottom: 3%; */
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: cored;
+        box-shadow: 0 0 7px lightgray;
+    }
+    
+    
+    .deliverDivs h5{
+        color: rgba(255, 0, 0, 0.493);
+    }
+    
+    .deliverLogos {
+        width: 85%;
+        height: 45%;
+        border-radius: 5px;
+        margin-top: 6%;
+        background-color: rgb(194, 185, 185);
+    }
+    
+    .deliverDivs h2 {
+        font-size: 18px;
+        padding-top: 16px;
+    }
+    
+    .deliverDivs p {
+        font-size: 14px;
+        text-align: center;
+        padding-inline: 7%;
+        padding-top: 14px;
+    }
+    .BTN3 {
+        width: 85%;
+        height: 10%;
+        font-size: 12px;
+        margin-bottom: 3%;
+        border-radius: 5px;
+        cursor: pointer;
+        border: none;
+        color: white;
+        background-color: rgb(64, 176, 241);
+    
+    }
+    .absolute1 {
+        position: absolute;
+        left: 40%;
+        font-size: 18px;
+        top: 503%;
+        color: rgb(8, 71, 107);
+        cursor: pointer;
+        border: none;
+        /* color: black; */
+        /* background: red; */
+    
+    }
+    
+    
+    .wash1{
+        height: 100%;
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 800px) and (min-width: 500px) {
+    .howWeWorkMainDiv {
+        width: 100%;
+        height: 85vh;
+        background-color: rgb(250, 248, 248);
+    }
+    
+    .weWorkTopDiv {
+        width: 100%;
+        height: 25%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        /* background-color: rgb(167, 160, 160); */
+    }
+    
+    .weWorkTopDiv p {
+        font-size: 15px;
+        margin-top: 5%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        /* background-color: rgb(214, 151, 151); */
+    }
+    
+    .weWorkTopDiv samp {
+        font-size: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        /* margin-top: 3%; */
+        /* background-color: rgb(214, 151, 151); */
+    }
+    
+    .weWorkBottomDiv {
+        width: 100%;
+        height: 75%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        /* background-color: rgb(207, 201, 201); */
+    }
+    
+    .pickUpDiv {
+        width: 30%;
+        height: 65%;
+        border-radius: 10px;
+        margin-bottom: 3%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        box-shadow: 0 0 10px lightgray;
+    }
+    
+    .pickUpLogo {
+        width: 58px;
+        height: 58px;
+        border-radius: 10px;
+        margin-top: 6%;
+        /* background-color: rgb(194, 185, 185); */
+    }
+    
+    .pickUpDiv h2 {
+        font-size: 18px;
+        padding-top: 16px;
+    }
+    
+    .pickUpDiv p {
+        font-size: 14px;
+        text-align: center;
+        padding-inline: 7%;
+        padding-top: 14px;
+        margin-bottom: 5%;
+    }
+    
+    .washDiv {
+        width: 30%;
+        height: 65%;
+        border-radius: 10px;
+        margin-bottom: 3%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        box-shadow: 0 0 10px lightgray;
+        /* background-color: rgb(194, 185, 185); */
+
+    }
+    
+    .washLogo {
+        width: 58px;
+        height: 58px;
+        border-radius: 10px;
+        margin-top: 6%;
+        /* background-color: rgb(194, 185, 185); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .washDiv h2 {
+        font-size: 18px;
+        padding-top: 16px;
+    }
+    
+    .washDiv p {
+        font-size: 14px;
+        text-align: center;
+        padding-inline: 7%;
+        padding-top: 14px;
+    }
+    
+    .deliverDiv {
+        width: 30%;
+        height: 65%;
+        border-radius: 10px;
+        margin-bottom: 3%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 0 10px lightgray;
+    }
+    
+    .deliverLogo {
+        width: 58px;
+        height: 58px;
+        border-radius: 10px;
+        margin-top: 6%;
+        /* background-color: rgb(194, 185, 185); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .deliverDiv h2 {
+        font-size: 18px;
+        padding-top: 16px;
+    }
+    
+    .deliverDiv p {
+        font-size: 14px;
+        text-align: center;
+        padding-inline: 7%;
+        padding-top: 14px;
+    }
+}

@@ -1,0 +1,258 @@
+.testimonyMainDiv{
+    width: 100%;
+    height: 75vh;
+    background-color:lavender;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.testimoniesHeader{
+    height: 15%;
+    width: 100%;
+    /* background: red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testimoniesHeader p{
+    height: 15%;
+    width: 100%;
+    /* background: red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    color: #6D6D6B;
+}
+
+
+.testimoniesContainer{
+    height: 85%;
+    width: 90%;
+    /* background: red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+
+.testimoniesCard1{
+    height: 60%;
+    width: 23%;
+    background: white;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 10px;
+
+
+}
+
+
+.daniella{
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.divbg{
+    height: 70%;
+    width: 90%;
+    /* background: green; */
+}
+
+
+.testimoniesCard2{
+    height: 60%;
+    width: 23%;
+    background: white;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.testimoniesCard3{
+    height: 60%;
+    width: 23%;
+    background: white;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+
+.profileCircle1{
+    height: 65px;
+    width: 65px;
+    border-radius: 50px;
+    background: #8CE3EE;
+    position: absolute;
+    top:-20px;
+    left:40%;
+}
+
+
+.profileCircle2{
+    height: 65px;
+    width: 65px;
+    border-radius: 50px;
+    background: #8CE3EE;
+    position: absolute;
+    top:-20px;
+    left:40%;
+}
+
+
+.profileCircle3{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    background: #8CE3EE;
+    position: absolute;
+    top:-20px;
+    left:40%;
+}
+
+
+.testimoniesText{
+    height: 70%;
+    width: 90%;
+    background: yellow;
+}
+
+
+@media screen and (max-width:500px) {
+    
+    .testimonyMainDiv{
+        width: 100%;
+        height: 200vh;
+        /* background-color:green; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    
+    .testimoniesHeader{
+        height: 7%;
+        width: 100%;
+        /* background: red; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    
+    .testimoniesHeader p{
+        height: 15%;
+        width: 100%;
+        /* background: red; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        color: #6D6D6B;
+    }
+    
+    
+    .testimoniesContainer{
+        height: 85%;
+        width: 90%;
+        /* background: red; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        /* flex-direction: column; */
+    }
+    
+    
+    .testimoniesCard1{
+        height: 30%;
+        width: 65%;
+        background: white;
+        border-radius: 10px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    
+    .testimoniesCard2{
+        height: 30%;
+        width: 65%;
+        background: white;
+        border-radius: 10px;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    
+    .testimoniesCard3{
+        height: 30%;
+        width: 65%;
+        background: white;
+        border-radius: 10px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .profileCircle1{
+        height: 20%;
+        width: 20%;
+        border-radius: 50px;
+        background: #8CE3EE;
+        position: absolute;
+        top:-20px;
+        left:40%;
+    }
+    
+    
+    .profileCircle2{
+        height: 20%;
+        width: 20%;
+        border-radius: 50px;
+        background: #8CE3EE;
+        position: absolute;
+        top:-20px;
+        left:40%;
+    }
+    
+    
+    .profileCircle3{
+        height: 20%;
+        width: 20%;
+        border-radius: 50px;
+        background: #8CE3EE;
+        position: absolute;
+        top:-20px;
+        left:40%;
+    }
+    
+    
+    .testimoniesText{
+        height: 70%;
+        width: 90%;
+        /* background: red; */
+    }
+}

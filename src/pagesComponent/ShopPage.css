@@ -1,0 +1,1443 @@
+.shopMainDiv{
+    width: 100%;
+    height: 100vh;
+    margin-top: 5.5%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.shopsContainer{
+    height: 90%;
+    width: 90%;
+    /* background: lavender; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.searchBarContainer{
+    height: 20%;
+    width: 100%;
+    /* background: blue; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.searchBarContainerWrapper{
+    height: 35%;
+    width: 30%;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid grey;
+
+}
+
+
+.shopsInput{
+    height: 90%;
+    width: 80%;    
+    border: none;
+    outline: none;
+    padding-inline: 10px;
+}
+
+
+.searchIcon{
+    height: 40%;
+    width: 4%;
+}
+
+
+.shopsWrapperContainer{
+    height:max-content;
+    width: 100%;
+    /* background: green; */
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    align-items: center;
+    gap: 13px;
+    margin-top: 30%;
+}
+
+
+.cardsForShopping{
+    height: 60vh;
+    width: 24%;
+    /* gap: ; */
+    background:white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 7px lightgray;
+
+}
+
+
+@media screen and (width:320px) {
+    .shopMainDiv{
+        width: 100%;
+        height: 100vh;
+        margin-top: 5.5%;
+        /* background-color: aquamarine; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .shopsContainer{
+        height: 90%;
+        width: 90%;
+        /* background: green; */
+    }
+    
+    
+    .searchBarContainer{
+        height: 25%;
+        width: 100%;
+        /* background: blue; */
+        display: flex;
+        /* justify-content: space-around; */
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
+        margin-top: 25px;
+    }
+    
+    
+    .searchBarContainerWrapper{
+        height: 30%;
+        width: 80%;
+        background: #fff;
+        /* background: red; */
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid grey;
+        /* margin-top: 10px; */
+    
+    }
+    
+    
+    .shopsInput{
+        height: 80%;
+        width: 80%;    
+        border: none;
+        outline: none;
+        padding-inline: 10px;
+    }
+    
+    
+    .searchIcon{
+        height: 40%;
+        width: 10%;
+        display: flex;
+    }
+    
+    
+    .shopsWrapperContainer{
+        height:max-content;
+        width: 100%;
+        /* background: green; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* justify-content: space-around; */
+        align-items: center;
+        gap: 13px;
+        margin-top: 5%;
+    }
+    
+    
+    .cardsForShopping{
+        height: 55vh;
+        width: 70%;
+        /* gap: ; */
+        background:white;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 0 7px lightgray;
+    
+    }
+}
+
+@media screen and (width:360px) {
+    .shopMainDiv{
+        width: 100%;
+        height: 100vh;
+        margin-top: 5.5%;
+        /* background-color: aquamarine; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .shopsContainer{
+        height: 90%;
+        width: 90%;
+        /* background: white; */
+    }
+    
+    
+    .searchBarContainer{
+        height: 15%;
+        width: 100%;
+        /* background: blue; */
+        display: flex;
+        /* justify-content: space-around; */
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
+        margin-top: 15px;
+    }
+    
+    
+    .searchBarContainerWrapper{
+        height: 35%;
+        width: 80%;
+        background: #fff;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid grey;
+    
+    }
+    
+    
+    .shopsInput{
+        height: 90%;
+        width: 80%;    
+        border: none;
+        outline: none;
+        padding-inline: 10px;
+    }
+    
+    
+    .searchIcon{
+        height: 40%;
+        width: 4%;
+    }
+    
+    
+    .shopsWrapperContainer{
+        height:max-content;
+        width: 100%;
+        /* background: green; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* justify-content: space-around; */
+        align-items: center;
+        gap: 13px;
+        margin-top: 5%;
+    }
+    
+    
+    .cardsForShopping{
+        height: 55vh;
+        width: 80%;
+        /* gap: ; */
+        background:white;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 0 7px lightgray;
+    
+    }
+}
+
+
+@media screen and (width:375px) {
+    .shopMainDiv{
+        width: 100%;
+        height: 100vh;
+        margin-top: 5.5%;
+        /* background-color: aquamarine; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .shopsContainer{
+        height: 90%;
+        width: 90%;
+        /* background: white; */
+    }
+    
+    
+    .searchBarContainer{
+        height: 15%;
+        width: 100%;
+        /* background: blue; */
+        display: flex;
+        /* justify-content: space-around; */
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
+        margin-top: 15px;
+    }
+    
+    
+    .searchBarContainerWrapper{
+        height: 35%;
+        width: 80%;
+        background: #fff;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid grey;
+    
+    }
+    
+    
+    .shopsInput{
+        height: 90%;
+        width: 80%;    
+        border: none;
+        outline: none;
+        padding-inline: 10px;
+    }
+    
+    
+    .searchIcon{
+        height: 40%;
+        width: 4%;
+    }
+    
+    
+    .shopsWrapperContainer{
+        height:max-content;
+        width: 100%;
+        /* background: green; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* justify-content: space-around; */
+        align-items: center;
+        gap: 13px;
+        margin-top: 5%;
+    }
+    
+    
+    .cardsForShopping{
+        height: 55vh;
+        width: 80%;
+        /* gap: ; */
+        background:white;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 0 7px lightgray;
+    
+    }
+}
+
+
+
+@media screen and (width:390px) {
+    .shopMainDiv{
+        width: 100%;
+        height: 100vh;
+        margin-top: 5.5%;
+        /* background-color: aquamarine; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .shopsContainer{
+        height: 90%;
+        width: 90%;
+        /* background: white; */
+    }
+    
+    
+    .searchBarContainer{
+        height: 15%;
+        width: 100%;
+        /* background: blue; */
+        display: flex;
+        /* justify-content: space-around; */
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
+        margin-top: 15px;
+    }
+    
+    
+    .searchBarContainerWrapper{
+        height: 35%;
+        width: 80%;
+        background: #fff;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid grey;
+    
+    }
+    
+    
+    .shopsInput{
+        height: 90%;
+        width: 80%;    
+        border: none;
+        outline: none;
+        padding-inline: 10px;
+    }
+    
+    
+    .searchIcon{
+        height: 40%;
+        width: 4%;
+    }
+    
+    
+    .shopsWrapperContainer{
+        height:max-content;
+        width: 100%;
+        /* background: green; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* justify-content: space-around; */
+        align-items: center;
+        gap: 13px;
+        margin-top: 5%;
+    }
+    
+    
+    .cardsForShopping{
+        height: 55vh;
+        width: 80%;
+        /* gap: ; */
+        background:white;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 0 7px lightgray;
+    
+    }
+}
+
+
+@media screen and (width:393px) {
+    .shopMainDiv{
+        width: 100%;
+        height: 100vh;
+        margin-top: 5.5%;
+        /* background-color: aquamarine; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .shopsContainer{
+        height: 90%;
+        width: 90%;
+        /* background: white; */
+    }
+    
+    
+    .searchBarContainer{
+        height: 15%;
+        width: 100%;
+        /* background: blue; */
+        display: flex;
+        /* justify-content: space-around; */
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
+        margin-top: 15px;
+    }
+    
+    
+    .searchBarContainerWrapper{
+        height: 35%;
+        width: 80%;
+        background: #fff;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid grey;
+    
+    }
+    
+    
+    .shopsInput{
+        height: 90%;
+        width: 80%;    
+        border: none;
+        outline: none;
+        padding-inline: 10px;
+    }
+    
+    
+    .searchIcon{
+        height: 40%;
+        width: 4%;
+    }
+    
+    
+    .shopsWrapperContainer{
+        height:max-content;
+        width: 100%;
+        /* background: green; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* justify-content: space-around; */
+        align-items: center;
+        gap: 13px;
+        margin-top: 5%;
+    }
+    
+    
+    .cardsForShopping{
+        height: 55vh;
+        width: 80%;
+        /* gap: ; */
+        background:white;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 0 7px lightgray;
+    
+    }
+}
+
+
+@media screen and (width:412px) {
+    .shopMainDiv{
+        width: 100%;
+        height: 100vh;
+        margin-top: 5.5%;
+        /* background-color: aquamarine; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .shopsContainer{
+        height: 90%;
+        width: 90%;
+        /* background: white; */
+    }
+    
+    
+    .searchBarContainer{
+        height: 15%;
+        width: 100%;
+        /* background: blue; */
+        display: flex;
+        /* justify-content: space-around; */
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
+        margin-top: 15px;
+    }
+    
+    
+    .searchBarContainerWrapper{
+        height: 35%;
+        width: 80%;
+        background: #fff;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid grey;
+    
+    }
+    
+    
+    .shopsInput{
+        height: 90%;
+        width: 80%;    
+        border: none;
+        outline: none;
+        padding-inline: 10px;
+    }
+    
+    
+    .searchIcon{
+        height: 40%;
+        width: 4%;
+    }
+    
+    
+    .shopsWrapperContainer{
+        height:max-content;
+        width: 100%;
+        /* background: green; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* justify-content: space-around; */
+        align-items: center;
+        gap: 13px;
+        margin-top: 5%;
+    }
+    
+    
+    .cardsForShopping{
+        height: 55vh;
+        width: 80%;
+        /* gap: ; */
+        background:white;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 0 7px lightgray;
+    
+    }
+}
+
+
+@media screen and (width:414px) {
+    .shopMainDiv{
+        width: 100%;
+        height: 100vh;
+        margin-top: 5.5%;
+        /* background-color: aquamarine; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .shopsContainer{
+        height: 90%;
+        width: 90%;
+        /* background: white; */
+    }
+    
+    
+    .searchBarContainer{
+        height: 15%;
+        width: 100%;
+        /* background: blue; */
+        display: flex;
+        /* justify-content: space-around; */
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
+        margin-top: 15px;
+    }
+    
+    
+    .searchBarContainerWrapper{
+        height: 35%;
+        width: 80%;
+        background: #fff;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid grey;
+    
+    }
+    
+    
+    .shopsInput{
+        height: 90%;
+        width: 80%;    
+        border: none;
+        outline: none;
+        padding-inline: 10px;
+    }
+    
+    
+    .searchIcon{
+        height: 40%;
+        width: 4%;
+    }
+    
+    
+    .shopsWrapperContainer{
+        height:max-content;
+        width: 100%;
+        /* background: green; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* justify-content: space-around; */
+        align-items: center;
+        gap: 13px;
+        margin-top: 5%;
+    }
+    
+    
+    .cardsForShopping{
+        height: 55vh;
+        width: 80%;
+        /* gap: ; */
+        background:white;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 0 7px lightgray;
+    
+    }
+}
+
+
+@media screen and (width:428px) {
+    .shopMainDiv{
+        width: 100%;
+        height: 100vh;
+        margin-top: 5.5%;
+        /* background-color: aquamarine; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .shopsContainer{
+        height: 90%;
+        width: 90%;
+        /* background: white; */
+    }
+    
+    
+    .searchBarContainer{
+        height: 15%;
+        width: 100%;
+        /* background: blue; */
+        display: flex;
+        /* justify-content: space-around; */
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
+        margin-top: 15px;
+    }
+    
+    
+    .searchBarContainerWrapper{
+        height: 35%;
+        width: 80%;
+        background: #fff;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid grey;
+    
+    }
+    
+    
+    .shopsInput{
+        height: 90%;
+        width: 80%;    
+        border: none;
+        outline: none;
+        padding-inline: 10px;
+    }
+    
+    
+    .searchIcon{
+        height: 40%;
+        width: 4%;
+    }
+    
+    
+    .shopsWrapperContainer{
+        height:max-content;
+        width: 100%;
+        /* background: green; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* justify-content: space-around; */
+        align-items: center;
+        gap: 13px;
+        margin-top: 5%;
+    }
+    
+    
+    .cardsForShopping{
+        height: 55vh;
+        width: 80%;
+        /* gap: ; */
+        background:white;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 0 7px lightgray;
+    
+    }
+}
+
+
+@media screen and (width:430px) {
+    .shopMainDiv{
+        width: 100%;
+        height: 100vh;
+        margin-top: 5.5%;
+        /* background-color: aquamarine; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .shopsContainer{
+        height: 90%;
+        width: 90%;
+        /* background: white; */
+    }
+    
+    
+    .searchBarContainer{
+        height: 15%;
+        width: 100%;
+        /* background: blue; */
+        display: flex;
+        /* justify-content: space-around; */
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
+        margin-top: 15px;
+    }
+    
+    
+    .searchBarContainerWrapper{
+        height: 35%;
+        width: 80%;
+        background: #fff;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid grey;
+    
+    }
+    
+    
+    .shopsInput{
+        height: 90%;
+        width: 80%;    
+        border: none;
+        outline: none;
+        padding-inline: 10px;
+    }
+    
+    
+    .searchIcon{
+        height: 40%;
+        width: 4%;
+    }
+    
+    
+    .shopsWrapperContainer{
+        height:max-content;
+        width: 100%;
+        /* background: green; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* justify-content: space-around; */
+        align-items: center;
+        gap: 13px;
+        margin-top: 5%;
+    }
+    
+    
+    .cardsForShopping{
+        height: 55vh;
+        width: 80%;
+        /* gap: ; */
+        background:white;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 0 7px lightgray;
+    
+    }
+}
+
+
+
+@media screen and (width:720px) {
+    .shopMainDiv{
+        width: 100%;
+        height: 100vh;
+        margin-top: 5.5%;
+        /* background-color: aquamarine; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .shopsContainer{
+        height: 90%;
+        width: 90%;
+        /* background: white; */
+    }
+    
+    
+    .searchBarContainer{
+        height: 15%;
+        width: 100%;
+        /* background: blue; */
+        display: flex;
+        /* justify-content: space-around; */
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
+        margin-top: 15px;
+    }
+    
+    
+    .searchBarContainerWrapper{
+        height: 35%;
+        width: 80%;
+        background: #fff;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid grey;
+    
+    }
+    
+    
+    .shopsInput{
+        height: 90%;
+        width: 80%;    
+        border: none;
+        outline: none;
+        padding-inline: 10px;
+    }
+    
+    
+    .searchIcon{
+        height: 40%;
+        width: 4%;
+    }
+    
+    
+    .shopsWrapperContainer{
+        height:max-content;
+        width: 100%;
+        /* background: green; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: none;
+        /* justify-content: space-around; */
+        align-items: center;
+        gap: 13px;
+        margin-top: 5%;
+    }
+    
+    
+    .cardsForShopping{
+        height: 53vh;
+        width: 48%;
+        /* gap: ; */
+        background:white;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 0 7px lightgray;
+    
+    }
+}
+
+
+@media screen and (width:768px) {
+    .shopMainDiv{
+        width: 100%;
+        height: 100vh;
+        margin-top: 5.5%;
+        /* background-color: aquamarine; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .shopsContainer{
+        height: 90%;
+        width: 90%;
+        /* background: white; */
+    }
+    
+    
+    .searchBarContainer{
+        height: 15%;
+        width: 100%;
+        /* background: blue; */
+        display: flex;
+        /* justify-content: space-around; */
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
+        margin-top: 15px;
+    }
+    
+    
+    .searchBarContainerWrapper{
+        height: 35%;
+        width: 80%;
+        background: #fff;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid grey;
+    
+    }
+    
+    
+    .shopsInput{
+        height: 90%;
+        width: 80%;    
+        border: none;
+        outline: none;
+        padding-inline: 10px;
+    }
+    
+    
+    .searchIcon{
+        height: 40%;
+        width: 4%;
+    }
+    
+    
+    .shopsWrapperContainer{
+        height:max-content;
+        width: 100%;
+        /* background: green; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: none;
+        /* justify-content: space-around; */
+        align-items: center;
+        gap: 13px;
+        margin-top: 5%;
+    }
+    
+    
+    .cardsForShopping{
+        height: 53vh;
+        width: 48%;
+        /* gap: ; */
+        background:white;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 0 7px lightgray;
+    
+    }
+}
+
+
+@media screen and (width:800px) {
+    .shopMainDiv{
+        width: 100%;
+        height: 100vh;
+        margin-top: 5.5%;
+        /* background-color: aquamarine; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .shopsContainer{
+        height: 90%;
+        width: 90%;
+        /* background: white; */
+    }
+    
+    
+    .searchBarContainer{
+        height: 15%;
+        width: 100%;
+        /* background: blue; */
+        display: flex;
+        /* justify-content: space-around; */
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
+        margin-top: 15px;
+    }
+    
+    
+    .searchBarContainerWrapper{
+        height: 35%;
+        width: 80%;
+        background: #fff;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid grey;
+    
+    }
+    
+    
+    .shopsInput{
+        height: 90%;
+        width: 80%;    
+        border: none;
+        outline: none;
+        padding-inline: 10px;
+    }
+    
+    
+    .searchIcon{
+        height: 40%;
+        width: 4%;
+    }
+    
+    
+    .shopsWrapperContainer{
+        height:max-content;
+        width: 100%;
+        /* background: green; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: none;
+        /* justify-content: space-around; */
+        align-items: center;
+        gap: 13px;
+        margin-top: 5%;
+    }
+    
+    
+    .cardsForShopping{
+        height: 53vh;
+        width: 48%;
+        /* gap: ; */
+        background:white;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 0 7px lightgray;
+    
+    }
+}
+
+
+@media screen and (width:820px) {
+    .shopMainDiv{
+        width: 100%;
+        height: 100vh;
+        margin-top: 5.5%;
+        /* background-color: aquamarine; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .shopsContainer{
+        height: 90%;
+        width: 90%;
+        /* background: white; */
+    }
+    
+    
+    .searchBarContainer{
+        height: 15%;
+        width: 100%;
+        /* background: blue; */
+        display: flex;
+        /* justify-content: space-around; */
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
+        margin-top: 15px;
+    }
+    
+    
+    .searchBarContainerWrapper{
+        height: 35%;
+        width: 80%;
+        background: #fff;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid grey;
+    
+    }
+    
+    
+    .shopsInput{
+        height: 90%;
+        width: 80%;    
+        border: none;
+        outline: none;
+        padding-inline: 10px;
+    }
+    
+    
+    .searchIcon{
+        height: 40%;
+        width: 4%;
+    }
+    
+    
+    .shopsWrapperContainer{
+        height:max-content;
+        width: 100%;
+        /* background: green; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: none;
+        /* justify-content: space-around; */
+        align-items: center;
+        gap: 13px;
+        margin-top: 5%;
+    }
+    
+    
+    .cardsForShopping{
+        height: 53vh;
+        width: 48%;
+        /* gap: ; */
+        background:white;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 0 7px lightgray;
+    
+    }
+}
+
+
+@media screen and (width:834px) {
+    .shopMainDiv{
+        width: 100%;
+        height: 100vh;
+        margin-top: 5.5%;
+        /* background-color: aquamarine; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .shopsContainer{
+        height: 90%;
+        width: 90%;
+        /* background: white; */
+    }
+    
+    
+    .searchBarContainer{
+        height: 15%;
+        width: 100%;
+        /* background: blue; */
+        display: flex;
+        /* justify-content: space-around; */
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
+        margin-top: 15px;
+    }
+    
+    
+    .searchBarContainerWrapper{
+        height: 35%;
+        width: 80%;
+        background: #fff;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid grey;
+    
+    }
+    
+    
+    .shopsInput{
+        height: 90%;
+        width: 80%;    
+        border: none;
+        outline: none;
+        padding-inline: 10px;
+    }
+    
+    
+    .searchIcon{
+        height: 40%;
+        width: 4%;
+    }
+    
+    
+    .shopsWrapperContainer{
+        height:max-content;
+        width: 100%;
+        /* background: green; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: none;
+        /* justify-content: space-around; */
+        align-items: center;
+        gap: 13px;
+        margin-top: 5%;
+    }
+    
+    
+    .cardsForShopping{
+        height: 53vh;
+        width: 48%;
+        /* gap: ; */
+        background:white;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 0 7px lightgray;
+    
+    }
+}
+
+
+@media screen and (width:884px) {
+    .shopMainDiv{
+        width: 100%;
+        height: 100vh;
+        margin-top: 5.5%;
+        /* background-color: aquamarine; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .shopsContainer{
+        height: 90%;
+        width: 90%;
+        /* background: white; */
+    }
+    
+    
+    .searchBarContainer{
+        height: 15%;
+        width: 100%;
+        /* background: blue; */
+        display: flex;
+        /* justify-content: space-around; */
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
+        margin-top: 15px;
+    }
+    
+    
+    .searchBarContainerWrapper{
+        height: 35%;
+        width: 80%;
+        background: #fff;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid grey;
+    
+    }
+    
+    
+    .shopsInput{
+        height: 90%;
+        width: 80%;    
+        border: none;
+        outline: none;
+        padding-inline: 10px;
+    }
+    
+    
+    .searchIcon{
+        height: 40%;
+        width: 4%;
+    }
+    
+    
+    .shopsWrapperContainer{
+        height:max-content;
+        width: 100%;
+        /* background: green; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: none;
+        /* justify-content: space-around; */
+        align-items: center;
+        gap: 13px;
+        margin-top: 5%;
+    }
+    
+    
+    .cardsForShopping{
+        height: 53vh;
+        width: 48%;
+        /* gap: ; */
+        background:white;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 0 7px lightgray;
+    
+    }
+}
+

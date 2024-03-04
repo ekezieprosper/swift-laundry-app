@@ -1,0 +1,246 @@
+.footerBody{
+    height: 50vh;
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.footerLeft{
+    height: 90%;
+    width:  40%;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    cursor: pointer;
+}
+
+.footerLeftWrapper{
+    height: 80%;
+    width: 65%;
+    /* background: blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+
+.footerRight{
+    height: 90%;
+    width: 60%;
+    /* background: green; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+
+.footerLocation{
+    height: 20%;
+    width: 75%;
+    /* background: palegreen; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.footerContact{
+    height: 20%;
+    width: 35%;
+    /* background: palevioletred; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.footerMessage{
+    height: 20%;
+    width: 55%;
+    /* background: purple; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.footerQuick{
+    height: 70%;
+    width: 30%;
+    /* background: grey; */
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    /* margin-bottom: 20px; */
+}
+
+
+.footerLegal{
+    height: 70%;
+    width: 30%;
+    /* background: plum; */
+     display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+
+.footerSocial{
+    height: 70%;
+    width: 30%;
+    /* background: peru; */
+     display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width:500px) {
+    
+    .footerBody{
+        height: 60vh;
+        width: 100%;
+        /* background: red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    
+    
+    .footerLeft{
+        height: 90%;
+        width: 40%;
+        /* background: red; */
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    
+    .footerLeftWrapper{
+        height: 100%;
+        width: 95%;
+        /* background: blue; */
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    
+    
+    .footerRight{
+        height: 90%;
+        width: 65%;
+        /* background: green; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* flex-direction: column; */
+    }
+    
+    
+    .footerLocation{
+        height: 20%;
+        width: 85%;
+        /* background: palegreen; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 10px;
+    }
+    
+    
+    .footerContact{
+        height: 20%;
+        width: 45%;
+        font-size: 10px;
+        /* background: palevioletred; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    
+    .footerMessage{
+        height: 20%;
+        width: 100%;
+        /* background: purple; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    
+    .footerQuick{
+        height: 70%;
+        width: 33%;
+        /* background: grey; */
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    
+    
+    .footerQuick h3{
+        font-size: 15px;
+    }
+    
+    .footerQuick p{
+        font-size: 10px;
+    }
+    
+    
+    .footerLegal{
+        height: 70%;
+        width: 33%;
+        /* background: plum; */
+         display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    
+    .footerLegal h3{
+        font-size: 15px;
+    }
+    
+    .footerLegal p{
+        font-size: 10px;
+    }
+    
+    
+    .footerSocial{
+        height: 70%;
+        width: 33%;
+        /* background: peru; */
+         display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    
+    .footerSocial h3{
+        font-size: 15px;
+    }
+    
+    .footerSocial p{
+        font-size: 10px;
+    }
+
+    
+}

@@ -1,0 +1,1647 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.HeaderMainDiv {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 0 0 8px lightsteelblue;
+}
+
+.burgerIconImage {
+    width: 10%;
+    height: 70px;
+    display: none;
+
+}
+
+.logoDiv {
+    width: 10%;
+    height: 100%;
+    margin-left: 4%;
+    /* background-color: rgb(127, 157, 255); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.writeUpDiv {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(127, 157, 255); */
+}
+
+.writeUpDiv ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.writeUpDiv ul li {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btnDiv {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: rgb(127, 157, 255); */
+}
+
+.main_loginButton {
+    width: 35%;
+    height: 70%;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid rgb(168, 195, 212);
+    background-color: white;
+    transition: all 350ms ease-in-out;
+    transform: scale(0.3s);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #35BAEA;
+}
+
+.main_loginButton:hover{
+    width: 35%;
+    height: 70%;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    border: 1px solid rgb(168, 195, 212);
+    border: 1px solid rgb(168, 195, 212);
+    background-color: #35BAEA;
+}
+
+.loginButton:hover {
+    /* background-color: #35BAEA; */
+    width: 35%;
+    height: 70%;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    border: 1px solid rgb(168, 195, 212);
+    background-color: white;
+    transform: scale(0.3s);
+
+
+
+
+}
+
+.signUpButton {
+    width: 35%;
+    height: 70%;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 350ms ease-in-out;
+    transform: scale(0.3s);
+    background-color: #35BAEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.signUpButton:hover {
+    width: 35%;
+    height: 70%;
+    border-radius: 10px;
+    color: #35BAEA;
+    cursor: pointer;
+    border: 1px solid rgb(168, 195, 212);
+    background-color: white;
+    transform: scale(0.3s);
+}
+
+.active {
+    color: #35BAEA;
+    text-decoration: underline;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: all 350ms ease-in-out;
+    transform: scale(1);
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.active:hover{
+    transition: all 450ms ;
+    transform: scale(1.2);
+}
+
+.inactive:hover{
+    transition: all 450ms ;
+    transform: scale(1.2);
+}
+
+.inactive {
+    text-decoration: none;
+    color: rgb(0, 0, 0, 0.5);
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #35BAEA;
+    border-radius: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 7px;
+}
+
+
+@media screen and (width:320px) {
+    .HeaderMainDiv {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        position: fixed;
+        top: 0px;
+        /* z-index: 99999; */
+        justify-content: space-around;
+        background-color: white;
+        box-shadow: 0 0 8px lightsteelblue;
+    }
+
+    .burgerIconImage {
+        width: 10.4%;
+        height: 70px;
+        margin-right: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: aquamarine; */
+
+    }
+
+    .burgerIconImage img {
+        width: 100%;
+        height: 53%;
+        display: flex;
+        /* background-color: aquamarine; */
+
+    }
+
+    .logoDiv {
+        width: 16.8%;
+        height: 85%;
+        margin-left: 2%;
+        margin-top: 2%;
+        /* background-color: rgb(127, 157, 255); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logoDiv img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .writeUpDiv {
+        width: 33%;
+        height: 100%;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(127, 157, 255); */
+    }
+
+    .writeUpDiv ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .writeUpDiv ul li {
+        display: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .btnDiv {
+        width: 20%;
+        height: 100%;
+        display: none;
+        justify-content: space-around;
+        align-items: center;
+        /* background-color: rgb(127, 157, 255); */
+    }
+
+    .loginButton {
+        width: 35%;
+        height: 70%;
+        border-radius: 10px;
+        cursor: pointer;
+        border: 1px solid rgb(168, 195, 212);
+        background-color: white;
+        transition: all 350ms ease-in-out;
+        transform: scale(0.3s);
+
+    }
+
+    .loginButton:hover {
+        background-color: rgb(139, 170, 243);
+        color: white;
+        border: none;
+        transform: scale(0.3s);
+
+    }
+
+    .signUpButton {
+        width: 35%;
+        height: 70%;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 350ms ease-in-out;
+        transform: scale(0.3s);
+        background-color: rgb(127, 157, 255);
+    }
+
+    .signUpButton:hover {
+        width: 35%;
+        height: 70%;
+        border-radius: 10px;
+        color: black;
+        cursor: pointer;
+        border: 1px solid rgb(168, 195, 212);
+        background-color: white;
+        transform: scale(0.3s);
+    }
+}
+
+@media screen and (width:327px) {
+    .HeaderMainDiv {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        position: fixed;
+        top: 0px;
+        /* z-index: 99999; */
+        justify-content: space-around;
+        background-color: white;
+        box-shadow: 0 0 8px lightsteelblue;
+    }
+
+    .burgerIconImage {
+        width: 10.4%;
+        height: 70px;
+        margin-right: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: aquamarine; */
+
+    }
+
+    .burgerIconImage img {
+        width: 100%;
+        height: 53%;
+        display: flex;
+        /* background-color: aquamarine; */
+
+    }
+
+    .logoDiv {
+        width: 16.8%;
+        height: 85%;
+        margin-left: 2%;
+        margin-top: 2%;
+        /* background-color: rgb(127, 157, 255); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logoDiv img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .writeUpDiv {
+        width: 33%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(127, 157, 255); */
+    }
+
+    .writeUpDiv ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .writeUpDiv ul li {
+        display: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .btnDiv {
+        width: 20%;
+        height: 100%;
+        display: none;
+        justify-content: space-around;
+        align-items: center;
+        /* background-color: rgb(127, 157, 255); */
+    }
+
+    .loginButton {
+        width: 35%;
+        height: 70%;
+        border-radius: 10px;
+        cursor: pointer;
+        border: 1px solid rgb(168, 195, 212);
+        background-color: white;
+        transition: all 350ms ease-in-out;
+        transform: scale(0.3s);
+    }
+
+    .loginButton:hover {
+        background-color: rgb(139, 170, 243);
+        color: white;
+        border: none;
+        transform: scale(0.3s);
+
+    }
+
+    .signUpButton {
+        width: 35%;
+        height: 70%;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 350ms ease-in-out;
+        transform: scale(0.3s);
+        background-color: rgb(127, 157, 255);
+    }
+
+    .signUpButton:hover {
+        width: 35%;
+        height: 70%;
+        border-radius: 10px;
+        color: black;
+        cursor: pointer;
+        border: 1px solid rgb(168, 195, 212);
+        background-color: white;
+        transform: scale(0.3s);
+    }
+}
+
+@media screen and (width:360px) {
+    .HeaderMainDiv {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        position: fixed;
+        top: 0px;
+        /* z-index: 99999; */
+        justify-content: space-around;
+        background-color: white;
+        box-shadow: 0 0 8px lightsteelblue;
+    }
+
+    .burgerIconImage {
+        width: 10.4%;
+        height: 70px;
+        margin-right: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: aquamarine; */
+
+    }
+
+    .burgerIconImage img {
+        width: 100%;
+        height: 53%;
+        display: flex;
+        /* background-color: aquamarine; */
+
+    }
+
+    .logoDiv {
+        width: 16.8%;
+        height: 85%;
+        margin-left: 2%;
+        margin-top: 2%;
+        /* background-color: rgb(127, 157, 255); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logoDiv img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .writeUpDiv {
+        width: 33%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(127, 157, 255); */
+    }
+
+    .writeUpDiv ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .writeUpDiv ul li {
+        display: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .btnDiv {
+        width: 20%;
+        height: 100%;
+        display: none;
+        justify-content: space-around;
+        align-items: center;
+        /* background-color: rgb(127, 157, 255); */
+    }
+
+    .loginButton {
+        width: 35%;
+        height: 70%;
+        border-radius: 10px;
+        cursor: pointer;
+        border: 1px solid rgb(168, 195, 212);
+        background-color: white;
+        transition: all 350ms ease-in-out;
+        transform: scale(0.3s);
+    }
+
+    .loginButton:hover {
+        background-color: rgb(139, 170, 243);
+        color: white;
+        border: none;
+        transform: scale(0.3s);
+
+    }
+
+    .signUpButton {
+        width: 35%;
+        height: 70%;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 350ms ease-in-out;
+        transform: scale(0.3s);
+        background-color: rgb(127, 157, 255);
+    }
+
+    .signUpButton:hover {
+        width: 35%;
+        height: 70%;
+        border-radius: 10px;
+        color: black;
+        cursor: pointer;
+        border: 1px solid rgb(168, 195, 212);
+        background-color: white;
+        transform: scale(0.3s);
+    }
+}
+
+@media screen and (width:390px) {
+    .HeaderMainDiv {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        position: fixed;
+        top: 0px;
+        /* z-index: 99999; */
+        justify-content: space-around;
+        background-color: white;
+        box-shadow: 0 0 8px lightsteelblue;
+    }
+
+    .burgerIconImage {
+        width: 10.4%;
+        height: 70px;
+        margin-right: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: aquamarine; */
+
+    }
+
+    .burgerIconImage img {
+        width: 100%;
+        height: 53%;
+        display: flex;
+        /* background-color: aquamarine; */
+
+    }
+
+    .logoDiv {
+        width: 16.8%;
+        height: 85%;
+        margin-left: 2%;
+        margin-top: 2%;
+        /* background-color: rgb(127, 157, 255); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logoDiv img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .writeUpDiv {
+        width: 33%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(127, 157, 255); */
+    }
+
+    .writeUpDiv ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .writeUpDiv ul li {
+        display: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .btnDiv {
+        width: 20%;
+        height: 100%;
+        display: none;
+        justify-content: space-around;
+        align-items: center;
+        /* background-color: rgb(127, 157, 255); */
+    }
+
+    .loginButton {
+        width: 35%;
+        height: 70%;
+        border-radius: 10px;
+        cursor: pointer;
+        border: 1px solid rgb(168, 195, 212);
+        background-color: white;
+        transition: all 350ms ease-in-out;
+        transform: scale(0.3s);
+    }
+
+    .loginButton:hover {
+        background-color: rgb(139, 170, 243);
+        color: white;
+        border: none;
+        transform: scale(0.3s);
+
+    }
+
+    .signUpButton {
+        width: 35%;
+        height: 70%;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 350ms ease-in-out;
+        transform: scale(0.3s);
+        background-color: rgb(127, 157, 255);
+    }
+
+    .signUpButton:hover {
+        width: 35%;
+        height: 70%;
+        border-radius: 10px;
+        color: black;
+        cursor: pointer;
+        border: 1px solid rgb(168, 195, 212);
+        background-color: white;
+        transform: scale(0.3s);
+    }
+}
+
+@media screen and (width:393px) {
+    .HeaderMainDiv {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        position: fixed;
+        top: 0px;
+        /* z-index: 99999; */
+        justify-content: space-around;
+        background-color: white;
+        box-shadow: 0 0 8px lightsteelblue;
+    }
+
+    .burgerIconImage {
+        width: 10.4%;
+        height: 70px;
+        margin-right: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: aquamarine; */
+
+    }
+
+    .burgerIconImage img {
+        width: 100%;
+        height: 53%;
+        display: flex;
+        /* background-color: aquamarine; */
+
+    }
+
+    .logoDiv {
+        width: 16.8%;
+        height: 85%;
+        margin-left: 2%;
+        margin-top: 2%;
+        /* background-color: rgb(127, 157, 255); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logoDiv img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .writeUpDiv {
+        width: 33%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(127, 157, 255); */
+    }
+
+    .writeUpDiv ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .writeUpDiv ul li {
+        display: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .btnDiv {
+        width: 20%;
+        height: 100%;
+        display: none;
+        justify-content: space-around;
+        align-items: center;
+        /* background-color: rgb(127, 157, 255); */
+    }
+
+    .loginButton {
+        width: 35%;
+        height: 70%;
+        border-radius: 10px;
+        cursor: pointer;
+        border: 1px solid rgb(168, 195, 212);
+        background-color: white;
+        transition: all 350ms ease-in-out;
+        transform: scale(0.3s);
+    }
+
+    .loginButton:hover {
+        background-color: rgb(139, 170, 243);
+        color: white;
+        border: none;
+        transform: scale(0.3s);
+
+    }
+
+    .signUpButton {
+        width: 35%;
+        height: 70%;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 350ms ease-in-out;
+        transform: scale(0.3s);
+        background-color: rgb(127, 157, 255);
+    }
+
+    .signUpButton:hover {
+        width: 35%;
+        height: 70%;
+        border-radius: 10px;
+        color: black;
+        cursor: pointer;
+        border: 1px solid rgb(168, 195, 212);
+        background-color: white;
+        transform: scale(0.3s);
+    }
+}
+
+@media screen and (width:375px) {
+    .HeaderMainDiv {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        position: fixed;
+        top: 0px;
+        /* z-index: 99999; */
+        justify-content: space-around;
+        background-color: white;
+        box-shadow: 0 0 8px lightsteelblue;
+    }
+
+    .burgerIconImage {
+        width: 10.4%;
+        height: 70px;
+        margin-right: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: aquamarine; */
+
+    }
+
+    .burgerIconImage img {
+        width: 100%;
+        height: 53%;
+        display: flex;
+        /* background-color: aquamarine; */
+
+    }
+
+    .logoDiv {
+        width: 16.8%;
+        height: 85%;
+        margin-left: 2%;
+        margin-top: 2%;
+        /* background-color: rgb(127, 157, 255); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logoDiv img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .writeUpDiv {
+        width: 33%;
+        height: 100%;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(127, 157, 255); */
+    }
+
+    .writeUpDiv ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .writeUpDiv ul li {
+        display: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .btnDiv {
+        width: 20%;
+        height: 100%;
+        display: none;
+        justify-content: space-around;
+        align-items: center;
+        /* background-color: rgb(127, 157, 255); */
+    }
+
+    .loginButton {
+        width: 35%;
+        height: 70%;
+        border-radius: 10px;
+        cursor: pointer;
+        border: 1px solid rgb(168, 195, 212);
+        background-color: white;
+        transition: all 350ms ease-in-out;
+        transform: scale(0.3s);
+    }
+
+    .loginButton:hover {
+        background-color: rgb(139, 170, 243);
+        color: white;
+        border: none;
+        transform: scale(0.3s);
+
+    }
+
+    .signUpButton {
+        width: 35%;
+        height: 70%;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 350ms ease-in-out;
+        transform: scale(0.3s);
+        background-color: rgb(127, 157, 255);
+    }
+
+    .signUpButton:hover {
+        width: 35%;
+        height: 70%;
+        border-radius: 10px;
+        color: black;
+        cursor: pointer;
+        border: 1px solid rgb(168, 195, 212);
+        background-color: white;
+        transform: scale(0.3s);
+    }
+}
+
+@media screen and (width:412px) {
+    .HeaderMainDiv {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        position: fixed;
+        top: 0px;
+        /* z-index: 99999; */
+        justify-content: space-around;
+        background-color: white;
+        box-shadow: 0 0 8px lightsteelblue;
+    }
+
+    .burgerIconImage {
+        width: 10.4%;
+        height: 70px;
+        margin-right: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: aquamarine; */
+
+    }
+
+    .burgerIconImage img {
+        width: 100%;
+        height: 53%;
+        display: flex;
+        /* background-color: aquamarine; */
+
+    }
+
+    .logoDiv {
+        width: 16.8%;
+        height: 85%;
+        margin-left: 2%;
+        margin-top: 2%;
+        /* background-color: rgb(127, 157, 255); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logoDiv img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .writeUpDiv {
+        width: 33%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(127, 157, 255); */
+    }
+
+    .writeUpDiv ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .writeUpDiv ul li {
+        display: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .btnDiv {
+        width: 20%;
+        height: 100%;
+        display: none;
+        justify-content: space-around;
+        align-items: center;
+        /* background-color: rgb(127, 157, 255); */
+    }
+
+    .loginButton {
+        width: 35%;
+        height: 70%;
+        border-radius: 10px;
+        cursor: pointer;
+        border: 1px solid rgb(168, 195, 212);
+        background-color: white;
+        transition: all 350ms ease-in-out;
+        transform: scale(0.3s);
+    }
+
+    .loginButton:hover {
+        background-color: rgb(139, 170, 243);
+        color: white;
+        border: none;
+        transform: scale(0.3s);
+
+    }
+
+    .signUpButton {
+        width: 35%;
+        height: 70%;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 350ms ease-in-out;
+        transform: scale(0.3s);
+        background-color: rgb(127, 157, 255);
+    }
+
+    .signUpButton:hover {
+        width: 35%;
+        height: 70%;
+        border-radius: 10px;
+        color: black;
+        cursor: pointer;
+        border: 1px solid rgb(168, 195, 212);
+        background-color: white;
+        transform: scale(0.3s);
+    }
+}
+
+@media screen and (width:414px) {
+    .HeaderMainDiv {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        position: fixed;
+        top: 0px;
+        /* z-index: 99999; */
+        justify-content: space-around;
+        background-color: white;
+        box-shadow: 0 0 8px lightsteelblue;
+    }
+
+    .burgerIconImage {
+        width: 10.4%;
+        height: 70px;
+        margin-right: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: aquamarine; */
+
+    }
+
+    .burgerIconImage img {
+        width: 100%;
+        height: 53%;
+        display: flex;
+        /* background-color: aquamarine; */
+
+    }
+
+    .logoDiv {
+        width: 16.8%;
+        height: 85%;
+        margin-left: 2%;
+        margin-top: 2%;
+        /* background-color: rgb(127, 157, 255); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logoDiv img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .writeUpDiv {
+        width: 33%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(127, 157, 255); */
+    }
+
+    .writeUpDiv ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .writeUpDiv ul li {
+        display: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .btnDiv {
+        width: 20%;
+        height: 100%;
+        display: none;
+        justify-content: space-around;
+        align-items: center;
+        /* background-color: rgb(127, 157, 255); */
+    }
+
+    .loginButton {
+        width: 35%;
+        height: 70%;
+        border-radius: 10px;
+        cursor: pointer;
+        border: 1px solid rgb(168, 195, 212);
+        background-color: white;
+        transition: all 350ms ease-in-out;
+        transform: scale(0.3s);
+    }
+
+    .loginButton:hover {
+        background-color: rgb(139, 170, 243);
+        color: white;
+        border: none;
+        transform: scale(0.3s);
+
+    }
+
+    .signUpButton {
+        width: 35%;
+        height: 70%;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 350ms ease-in-out;
+        transform: scale(0.3s);
+        background-color: rgb(127, 157, 255);
+    }
+
+    .signUpButton:hover {
+        width: 35%;
+        height: 70%;
+        border-radius: 10px;
+        color: black;
+        cursor: pointer;
+        border: 1px solid rgb(168, 195, 212);
+        background-color: white;
+        transform: scale(0.3s);
+    }
+}
+
+@media screen and (width:425px) {
+    .HeaderMainDiv {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        position: fixed;
+        top: 0px;
+        /* z-index: 99999; */
+        justify-content: space-around;
+        background-color: white;
+        box-shadow: 0 0 8px lightsteelblue;
+    }
+
+    .burgerIconImage {
+        width: 10.4%;
+        height: 70px;
+        margin-right: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: aquamarine; */
+
+    }
+
+    .burgerIconImage img {
+        width: 100%;
+        height: 53%;
+        display: flex;
+        /* background-color: aquamarine; */
+
+    }
+
+    .logoDiv {
+        width: 16.8%;
+        height: 85%;
+        margin-left: 2%;
+        margin-top: 2%;
+        /* background-color: rgb(127, 157, 255); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logoDiv img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .writeUpDiv {
+        width: 33%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(127, 157, 255); */
+    }
+
+    .writeUpDiv ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .writeUpDiv ul li {
+        display: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .btnDiv {
+        width: 20%;
+        height: 100%;
+        display: none;
+        justify-content: space-around;
+        align-items: center;
+        /* background-color: rgb(127, 157, 255); */
+    }
+
+    .loginButton {
+        width: 35%;
+        height: 70%;
+        border-radius: 10px;
+        cursor: pointer;
+        border: 1px solid rgb(168, 195, 212);
+        background-color: white;
+        transition: all 350ms ease-in-out;
+        transform: scale(0.3s);
+    }
+
+    .loginButton:hover {
+        background-color: rgb(139, 170, 243);
+        color: white;
+        border: none;
+        transform: scale(0.3s);
+
+    }
+
+    .signUpButton {
+        width: 35%;
+        height: 70%;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 350ms ease-in-out;
+        transform: scale(0.3s);
+        background-color: rgb(127, 157, 255);
+    }
+
+    .signUpButton:hover {
+        width: 35%;
+        height: 70%;
+        border-radius: 10px;
+        color: black;
+        cursor: pointer;
+        border: 1px solid rgb(168, 195, 212);
+        background-color: white;
+        transform: scale(0.3s);
+    }
+}
+
+@media screen and (width:428px) {
+    .HeaderMainDiv {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        position: fixed;
+        top: 0px;
+        /* z-index: 99999; */
+        justify-content: space-around;
+        background-color: white;
+        box-shadow: 0 0 8px lightsteelblue;
+    }
+
+    .burgerIconImage {
+        width: 10.4%;
+        height: 70px;
+        margin-right: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: aquamarine; */
+
+    }
+
+    .burgerIconImage img {
+        width: 100%;
+        height: 53%;
+        display: flex;
+        /* background-color: aquamarine; */
+
+    }
+
+    .logoDiv {
+        width: 16.8%;
+        height: 85%;
+        margin-left: 2%;
+        margin-top: 2%;
+        /* background-color: rgb(127, 157, 255); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logoDiv img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .writeUpDiv {
+        width: 33%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(127, 157, 255); */
+    }
+
+    .writeUpDiv ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .writeUpDiv ul li {
+        display: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .btnDiv {
+        width: 20%;
+        height: 100%;
+        display: none;
+        justify-content: space-around;
+        align-items: center;
+        /* background-color: rgb(127, 157, 255); */
+    }
+
+    .loginButton {
+        width: 35%;
+        height: 70%;
+        border-radius: 10px;
+        cursor: pointer;
+        border: 1px solid rgb(168, 195, 212);
+        background-color: white;
+        transition: all 350ms ease-in-out;
+        transform: scale(0.3s);
+    }
+
+    .loginButton:hover {
+        background-color: rgb(139, 170, 243);
+        color: white;
+        border: none;
+        transform: scale(0.3s);
+
+    }
+
+    .signUpButton {
+        width: 35%;
+        height: 70%;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 350ms ease-in-out;
+        transform: scale(0.3s);
+        background-color: rgb(127, 157, 255);
+    }
+
+    .signUpButton:hover {
+        width: 35%;
+        height: 70%;
+        border-radius: 10px;
+        color: black;
+        cursor: pointer;
+        border: 1px solid rgb(168, 195, 212);
+        background-color: white;
+        transform: scale(0.3s);
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .HeaderMainDiv {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        position: fixed;
+        top: 0px;
+        /* z-index: 99999; */
+        justify-content: space-around;
+        background-color: white;
+        box-shadow: 0 0 8px lightsteelblue;
+    }
+
+    .burgerIconImage {
+        width: 7%;
+        height: 60px;
+        margin-right: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: aquamarine; */
+
+    }
+
+    .burgerIconImage img {
+        width: 100%;
+        height: 53%;
+        display: flex;
+        /* background-color: aquamarine; */
+
+    }
+
+    .logoDiv {
+        width: 14%;
+        height: 70%;
+        margin-left: 2%;
+        margin-top: 2%;
+        /* background-color: rgb(127, 157, 255); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logoDiv img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .writeUpDiv {
+        width: 33%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(127, 157, 255); */
+    }
+
+    .writeUpDiv ul {
+        width: 100%;
+        display: none;
+        justify-content: space-between;
+    }
+
+    .writeUpDiv ul li {
+        display: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .btnDiv {
+        width: 20%;
+        height: 100%;
+        display: none;
+        justify-content: space-around;
+        align-items: center;
+        /* background-color: rgb(127, 157, 255); */
+    }
+
+    .loginButton {
+        width: 35%;
+        height: 70%;
+        border-radius: 10px;
+        cursor: pointer;
+        border: 1px solid rgb(168, 195, 212);
+        background-color: white;
+        transition: all 350ms ease-in-out;
+        transform: scale(0.3s);
+    }
+
+    .loginButton:hover {
+        background-color: rgb(139, 170, 243);
+        color: white;
+        border: none;
+        transform: scale(0.3s);
+
+    }
+
+    .signUpButton {
+        width: 35%;
+        height: 70%;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 350ms ease-in-out;
+        transform: scale(0.3s);
+        background-color: rgb(127, 157, 255);
+    }
+
+    .signUpButton:hover {
+        width: 35%;
+        height: 70%;
+        border-radius: 10px;
+        color: black;
+        cursor: pointer;
+        border: 1px solid rgb(168, 195, 212);
+        background-color: white;
+        transform: scale(0.3s);
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 500px) {
+    .HeaderMainDiv {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        position: fixed;
+        top: 0px;
+        /* z-index: 99999; */
+        justify-content: space-around;
+        background-color: white;
+        box-shadow: 0 0 8px lightsteelblue;
+    }
+
+    .burgerIconImage {
+        width: 6%;
+        height: 70px;
+        margin-right: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: aquamarine; */
+
+    }
+
+    .burgerIconImage img {
+        width: 100%;
+        height: 53%;
+        display: flex;
+        /* background-color: aquamarine; */
+
+    }
+
+    .logoDiv {
+        width: 10%;
+        height: 85%;
+        margin-right: 60%;
+        margin-top: 1%;
+        /* background-color: rgb(127, 157, 255); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logoDiv img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .writeUpDiv {
+        width: 50%;
+        height: 100%;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(127, 157, 255); */
+    }
+
+    .writeUpDiv ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .writeUpDiv ul li {
+        display: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .btnDiv {
+        width: 20%;
+        height: 100%;
+        display: none;
+        justify-content: space-around;
+        align-items: center;
+        /* background-color: rgb(127, 157, 255); */
+    }
+
+    .loginButton {
+        width: 35%;
+        height: 70%;
+        border-radius: 10px;
+        cursor: pointer;
+        border: 1px solid rgb(168, 195, 212);
+        background-color: white;
+        transition: all 350ms ease-in-out;
+        transform: scale(0.3s);
+    }
+
+    .loginButton:hover {
+        background-color: rgb(139, 170, 243);
+        color: white;
+        border: none;
+        transform: scale(0.3s);
+
+    }
+
+    .signUpButton {
+        width: 35%;
+        height: 70%;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 350ms ease-in-out;
+        transform: scale(0.3s);
+        background-color: rgb(127, 157, 255);
+    }
+
+    .signUpButton:hover {
+        width: 35%;
+        height: 70%;
+        border-radius: 10px;
+        color: black;
+        cursor: pointer;
+        border: 1px solid rgb(168, 195, 212);
+        background-color: white;
+        transform: scale(0.3s);
+    }
+}

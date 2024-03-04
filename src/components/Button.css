@@ -1,0 +1,9 @@
+.signUpButton{
+    width: 40%;
+    height: 64%;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgb(127, 157, 255);
+}

@@ -1,0 +1,365 @@
+.heroPageMainDiv {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    background-color: #fdfdf7;
+
+    /* margin-top: 5.7%; */
+}
+
+.leftDiv {
+    width: 50%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(182, 180, 180); */
+}
+
+.leftHold {
+    width: 80%;
+    height: 70%;
+    font-size: 40px;
+    /* line-height: 50px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 20%;
+    /* background-color: rgb(153, 130, 130); */
+    /* background: red; */
+}
+
+.leftDiv h1 {
+    width: 100%;
+    height: 32%;
+    font-size: 50px;
+    line-height: 50px;
+    color: #141414;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: rgb(130, 153, 147); */
+}
+
+.conv {
+    width: 100%;
+    height: 32%;
+    font-size: 50px;
+    line-height: 50px;
+    color: #35BAEA;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: rgb(130, 153, 147); */
+}
+
+.leftDiv p {
+    width: 100%;
+    height: 23%;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 13%;
+    color: #868686;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: rgb(185, 168, 168); */
+}
+
+.getStartedButton {
+    width: 34%;
+    height: 13%;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10%;
+    background-color: #35BAEA;
+}
+
+.rightDiv {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(237, 248, 218); */
+}
+
+.rightDiv img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    /* background-color: rgb(237, 248, 218); */
+}
+
+
+@media screen and (max-width:320px) {
+    .heroPageMainDiv {
+        width: 100%;
+        height: 85vh;
+        display: flex;
+        background-color: #fdfdf7;
+    
+        /* margin-top: 5.7%; */
+    }
+    
+    .leftDiv {
+        width: 50%;
+        height: 85vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(182, 180, 180); */
+    }
+    
+    .leftHold {
+        width: 80%;
+        height: 70%;
+        font-size: 40px;
+        /* line-height: 50px; */
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-left: 20%;
+        /* background-color: rgb(153, 130, 130); */
+        /* background: red; */
+    }
+    
+    .leftDiv h1 {
+        width: 100%;
+        height: 32%;
+        font-size: 15px;
+        line-height: 50px;
+        color: #141414;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* background-color: rgb(130, 153, 147); */
+    }
+    
+    .conv {
+        width: 100%;
+        height: 32%;
+        font-size: 40px;
+        line-height: 50px;
+        color: #35BAEA;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* background-color: rgb(130, 153, 147); */
+    }
+    
+    .leftDiv p {
+        width: 100%;
+        height: 23%;
+        font-size: 15px;
+        line-height: 25px;
+        margin-top: 13%;
+        color: #868686;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* background-color: rgb(185, 168, 168); */
+    }
+    
+    .getStartedButton {
+        width: 34%;
+        height: 13%;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-top: 10%;
+        background-color: #35BAEA;
+    }
+    
+    .rightDiv {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        /* background-color: rgb(237, 248, 218); */
+    }
+    
+    .rightDiv img {
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+        /* background-color: rgb(237, 248, 218); */
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .heroPageMainDiv {
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        background-color: #fdfdf7;
+        margin-top: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .leftDiv {
+        width: 90%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background: red; */
+    }
+
+    .leftHold {
+        width: 100%;
+        height: 100%;
+        /* font-size: 20px; */
+        line-height: 50px;
+        margin-left: 0%;
+        /* background-color: rgb(153, 130, 130); */
+    }
+
+    .leftDiv h1 {
+        width: 100%;
+        height: 39%;
+        font-size: 28px;
+        line-height: 30px;
+        color: #141414;
+        margin-top: 2%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* background-color: rgb(130, 153, 147); */
+    }
+
+    .conv {
+        width: 100%;
+        height: 32%;
+        /* font-size: 25px; */
+        line-height: 50px;
+        color: #35BAEA;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* background-color: rgb(130, 153, 147); */
+    }
+
+    .leftDiv p {
+        width: 100%;
+        height: 30%;
+        /* font-size: 12.5px; */
+        line-height: 23px;
+        margin-top: 1%;
+        color: #868686;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* background-color: rgb(185, 168, 168); */
+    }
+
+    .getStartedButton {
+        width: 40%;
+        height: 15%;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-top: 3%;
+        background-color: #35BAEA;
+    }
+
+    .rightDiv {
+        width: 50%;
+        height: 100%;
+        display: none;
+        justify-content: center;
+        /* background-color: rgb(237, 248, 218); */
+    }
+
+    .rightDiv img {
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+        /* background-color: rgb(237, 248, 218); */
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 500px) {
+    .heroPageMainDiv {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        background: linear-gradient(to right, #182d3ee3, #a688667b);
+
+    }
+
+    .leftDiv {
+        width: 90%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(182, 180, 180); */
+    }
+
+    .leftHold {
+        width: 70%;
+        height: fit-content;
+        line-height: 50px;
+        margin-right: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        /* background-color: rgb(153, 130, 130); */
+    }
+
+    .leftDiv h1 {
+        width: 90%;
+        height: 32%;
+        font-size: 30px;
+        line-height: 50px;
+        color: white;
+        text-align: start;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* background-color: rgb(130, 153, 147); */
+    }
+
+    .conv {
+        width: 100%;
+        height: 32%;
+        font-size: 40px;
+        line-height: 50px;
+        color: #35BAEA;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* background-color: rgb(130, 153, 147); */
+    }
+
+    .leftDiv p {
+        width: 80%;
+        height: 23%;
+        font-size: 14px;
+        line-height: 25px;
+        margin-top: 5%;
+        color: white;
+        text-align: start;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* background-color: rgb(185, 168, 168); */
+    }
+
+    .getStartedButton {
+        width: 34%;
+        height: 45px;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-top: 1;
+        background-color: #35BAEA;
+    }
+
+    .rightDiv {
+        width: 50%;
+        height: 100%;
+        display: none;
+        justify-content: center;
+        /* background-color: rgb(237, 248, 218); */
+    }
+
+    .rightDiv img {
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+        /* background-color: rgb(237, 248, 218); */
+    }
+}

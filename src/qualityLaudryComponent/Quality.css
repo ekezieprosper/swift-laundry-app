@@ -1,0 +1,119 @@
+.qualityMainDiv{
+    width: 100%;
+    height: 20vh;
+    background-color: #35BAEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.qualityContainer{
+    height: 90%;
+    width: 80%;
+    /* background: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.qualityContainer h1{
+    height: 30%;
+   color: white;
+   line-height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+ 
+}
+
+
+.needQuality{
+    height: 100%;
+    width: 60%;
+    /* background: greenyellow; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+
+.getStarted{
+    height: 100%;
+    width: 20%;
+    /* background: purple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.getStartedBtn{
+    height: 45%;
+    width: 60%;
+    background: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+
+@media screen and (max-width:500px) {
+    
+    .qualityMainDiv{
+        width: 100%;
+        height: 20vh;
+        background-color: #35BAEA;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .qualityContainer{
+        height: 90%;
+        width: 90%;
+        /* background: red; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .qualityContainer h1{
+        height: 30%;
+       color: white;
+       line-height: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+     
+    }
+    
+    
+    .needQuality{
+        height: 100%;
+        width: 70%;
+        /* background: greenyellow; */
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    
+    
+    .getStarted{
+        height: 100%;
+        width: 30%;
+        /* background: purple; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .getStartedBtn{
+        height: 45%;
+        width: 80%;
+        background: black;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        color: white;
+    }
+}
