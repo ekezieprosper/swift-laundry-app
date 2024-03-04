@@ -5,7 +5,7 @@ import axios from 'axios';
 import { BeatLoader } from 'react-spinners';
 import Swal from 'sweetalert2';
 import { useNavigate } from 'react-router-dom/dist/umd/react-router-dom.development';
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 import { IoMdArrowRoundBack } from 'react-icons/io';
 
 const RegisterSignUp = () => {
@@ -78,7 +78,7 @@ const RegisterSignUp = () => {
         text: response.data?.message,
         icon: "success"
       });
-      navigate("/dashboards")
+      navigate("/businessDashboard")
       localStorage.setItem('admindata', JSON.stringify(response.data?.data))
 
     } catch (err) {
@@ -109,7 +109,7 @@ const RegisterSignUp = () => {
             <div className='registerdLogoContainer'>
               <img src="./grace.png" alt="" />
               <div className='span'>
-                <h1>Registered Business</h1>
+                <h1>Register Business</h1>
               </div>
             </div>
             <div className='inputContainers'>
@@ -124,13 +124,13 @@ const RegisterSignUp = () => {
                   <h3>Business Email</h3>
                   <input required type="email" className='emailInput' placeholder='Enter your business email' onChange={handleEmail} />
                   <h3>Password</h3>
-                  <input required type="text" className='passwordInput' placeholder='Enter your password' onChange={handleBusinessPassword} />
+                  <input required type="password" className='passwordInput' placeholder='Enter your password' onChange={handleBusinessPassword} />
                 </div>
                 <div className='phoneNumberContainer'>
                   <h3>Phone Number</h3>
                   <input required type="text" className='phoneNumberInput' placeholder='Enter your phone number' onChange={handleBusinessPhoneNumber} />
                   <h3>Confirm Password</h3>
-                  <input required type="text" className='confirmPasswordInput' placeholder='Confirm your password' onChange={handleBusinessConfirmPassword} />
+                  <input required type="password" className='confirmPasswordInput' placeholder='Confirm your password' onChange={handleBusinessConfirmPassword} />
                 </div>
                 <div></div>
               </div>
@@ -139,11 +139,9 @@ const RegisterSignUp = () => {
               <button disabled={isLoading} className='signUp' type='submit'>{isLoading ?
                 <BeatLoader color="white" /> : "signUp"} </button>
               <div className='alreadyHaveAccount'>
-                {/* <Link style={{ textDecoration: "none" }} to="/login"> */}
-                <Link style={{ textDecoration: "none" }} to='/login'>
-                  <span>Already have an account?<b>Login</b></span>
-                </Link>
-                {/* </Link> */}
+                <div style={{ textDecoration: "none" }}>
+                  <span>Already have an account? <Link to='/registerLogin'>Login</Link></span>
+                </div>
               </div>
             </div>
           </div>

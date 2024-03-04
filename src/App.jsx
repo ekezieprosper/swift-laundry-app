@@ -28,6 +28,8 @@ import BusinessDashBoard from './businessDashBoardComponent/BusinessDashBoard';
 import BusinessOrder from './businessOrderComponentss/BusinessOrder';
 import BusinessDashboardLayout from './businessDashboardLayoutComponent/BusinessDashboardLayout';
 import ShopLogin from './ShopLoginComponent/ShopLogin';
+import Verification from './VerificationPage/Verify';
+import Click from './VerificationsPage/verifys';
 
 const router = createBrowserRouter([
   {
@@ -81,6 +83,18 @@ const router = createBrowserRouter([
   {
     path: "/login",
     element: <Login />
+  },
+
+
+  {
+    path: "/verifyEmail",
+    element: <Verification />
+  },
+
+
+  {
+    path: "/verifyEmails",
+    element: <Click />
   },
 
   {

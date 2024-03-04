@@ -48,7 +48,7 @@ const ShopLogin = () => {
         text: response.data?.message,
         icon: "success"
       });
-      navigate("/dashboards")
+      navigate("/businessDashboard")
 
     } catch (err) {
       if (err.response) {
@@ -97,8 +97,8 @@ const ShopLogin = () => {
           <button disabled={isLoading} className='signUpa' type='submit'>{isLoading ?
               <BeatLoader color="white" /> : "SignUp"}</button>
             <div className='alreadyHaveAccounta'>
-               <Link style={{ textDecoration: "none" }} to="/login"> 
-                <span>Already have an account?<b>Login</b></span>
+               <Link style={{ textDecoration: "none" }} to="/registerSignup"> 
+                <span>Already have an account?<b>Sign up</b></span>
               </Link> 
           </div>
         </div>
