@@ -332,7 +332,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* background-color: rgb(194, 60, 60); */
+        background-color: rgb(194, 60, 60);
     }
 
     .weWorkTopDiv p {
@@ -364,15 +364,18 @@
     }
 
     .pickUpDiv {
-        width: 65%;
-        height: 25%;
+        width: 95%;
+        height: 30%;
         border-radius: 10px;
         /* margin-bottom: 3%; */
         display: flex;
         align-items: center;
         flex-direction: column;
-        background-color:white;
+        background-color:red;
         box-shadow: 0 0 10px lightgray;
+        margin-top:80px;
+        font-size: 20px;
+
     }
 
     .pickUpLogo {
@@ -396,8 +399,8 @@
     }
 
     .washDiv {
-        width: 65%;
-        height: 25%;
+        width: 90%;
+        height: 30%;
         border-radius: 10px;
         /* margin-bottom: 3%; */
         display: flex;
@@ -432,8 +435,9 @@
     }
 
     .deliverDiv {
-        width: 65%;
-        height: 25%;
+        width: 90%;
+        height: 30%;
+        /* margin-top: 20px; */
         border-radius: 10px;
         /* margin-bottom: 3%; */
         background-color: white;
@@ -441,6 +445,7 @@
         align-items: center;
         flex-direction: column;
         box-shadow: 0 0 10px lightgray;
+        /* margin-bottom: 120px; */
     }
 
     .deliverLogo {

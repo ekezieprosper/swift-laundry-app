@@ -41,7 +41,8 @@ const Login = () => {
         icon: "success",
       });
       navigate("/dashboards")
-
+      localStorage.setItem('userToken', response.data?.data)
+      // console.log(response.data.data)
 
     } catch (err) {
       if (err.response) {
@@ -63,7 +64,7 @@ const Login = () => {
     navigate(-1)
   }
 
-  
+
   const navigateToHome = () => {
     navigate("/")
   }
@@ -92,7 +93,7 @@ const Login = () => {
                 <input required type="email" className='BusinessNamesa' placeholder='Enter your email' onChange={handleEmail} />
                 <h3>Password</h3>
                 <div className="addresssa">
-                  <input required type={!show ? "password"  : "text"} placeholder='Enter your password' className='' onChange={handlePassword} />
+                  <input required type={!show ? "password" : "text"} placeholder='Enter your password' className='' onChange={handlePassword} />
                   <div onClick={showEyeIcon} className="eye_icon">
                     {!show ? <IoIosEyeOff /> : <IoMdEye />}
                   </div>
@@ -113,7 +114,7 @@ const Login = () => {
       <div onClick={navigateBack} className="back_icon">
         <IoMdArrowRoundBack size={30} />
       </div>
-      
+
     </div>
   )
 }

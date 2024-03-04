@@ -7,7 +7,7 @@ const Verification = () => {
 
     const nav = useNavigate()
     const navigateDashboard = () => {
-        nav("/businessDashboard")
+        nav("/login")
     }
 
    

@@ -5,7 +5,7 @@ const Click = () => {
 
     const navs = useNavigate()
     const navigateDashboards = () => {
-        navs("/dashboards")
+        navs("/registerLogin")
     }
     return(
         <>
