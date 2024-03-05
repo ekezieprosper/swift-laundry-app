@@ -20,7 +20,7 @@ const Verification = () => {
                 <h2>You've Been Verified Successfully. </h2>
                 <h2>Go to dashboard. </h2>
                     </div>
-                <button className="dashBoardApi" onClick={navigateDashboard}> Dashboard </button>
+                <button className="dashBoardApi" onClick={navigateDashboard}>Login</button>
                 </div>
             </div>
         </div>

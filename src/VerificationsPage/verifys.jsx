@@ -16,7 +16,7 @@ const Click = () => {
                 <h2>You've Been Verified Successfully. </h2>
                 <h2>Go to dashboard. </h2>
                     </div>
-                <button className="dashBoardApi" onClick={navigateDashboards}> Dashboard </button>
+                <button className="dashBoardApi" onClick={navigateDashboards}>Login</button>
                 </div>
             </div>
         </div>

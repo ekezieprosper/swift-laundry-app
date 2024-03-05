@@ -81,7 +81,6 @@ const Plan = () => {
       </section>
 
       <div className="blur_pic">
-
       </div>
     </div>
   )
