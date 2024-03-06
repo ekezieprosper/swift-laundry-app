@@ -1,0 +1,84 @@
+.LocationModalpeofileMai{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.316);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99999999;
+}
+.addressMain {
+    width: 100%;
+    height: 30%;
+    font-size: 14px;
+    padding-inline: 70px;
+    font-weight: 600;
+    margin-top: 2%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: lightblue; */
+ 
+}
+.inputMain {
+    width: 100%;
+    height: 45%;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    margin-bottom: 4%;
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: lightblue; */
+ 
+}
+.LocationModalpeofileMainDiv {
+    width: 25%;
+    height: 20%;
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+    border: 1px solid lightblue;
+    box-shadow: 0 0 10px lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.LocationModalpeofileMainDiv input{
+    width: 70%;
+    height: 80%;
+    margin-bottom: 2%;
+    background-color: white;
+   
+}
+
+.LocationModalpeofileMainDiv button {
+    width: 20%;
+    height: 80%;
+    border: 1px solid lightgray;
+    background-color: rgb(234, 231, 231);
+    border-radius: 10px;
+    box-shadow: 0 0 10px lightgray;
+    transition: all 350ms ease-in-out;
+    cursor: pointer;
+    margin-top: 2%;
+}
+
+.LocationModalpeofileMainDiv button:hover {
+    width: 20%;
+    height: 80%;
+    /* margin-left: 8%; */
+    /* margin-top: 5%; */
+    border: none;
+    color: white;
+    background-color: rgb(76, 76, 76);
+    border-radius: 10px;
+    box-shadow: 0 0 10px lightgray;
+    cursor: pointer;
+}
+
