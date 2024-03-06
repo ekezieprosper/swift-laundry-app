@@ -48,6 +48,8 @@
     cursor: pointer;
     transition: all 350ms ease-in;
     transform: scale(1.0.2);
+    text-decoration: none;
+    /* background-color: aqua; */
 }
 .cardItems:hover{
     background-color: rgb(241, 241, 241);
@@ -56,6 +58,14 @@
 .imageBorder{
     width: 32%;
     height: 75%;
+    border-radius: 10px;
+    background-color: rgb(179, 185, 229);
+    /* cursor: pointer; */
+}
+.imageBorder img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 10px;
     background-color: rgb(179, 185, 229);
     /* cursor: pointer; */

@@ -33,8 +33,9 @@ const Login = () => {
 
     try {
       setIsLoading(true);
-      console.log("pass");
+      // console.log("pass");
       const response = await axios.post(url, data);
+      console.log(response)
       Swal.fire({
         title: "Login Successful",
         text: response.data?.message,

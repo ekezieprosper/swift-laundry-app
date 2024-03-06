@@ -2,6 +2,10 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { Outlet } from 'react-router-dom/dist/umd/react-router-dom.development'
 import "./BusinessDashboardLayout.css"
+import { TbLayoutDashboard } from 'react-icons/tb'
+import { CgBorderTop } from "react-icons/cg";
+import { FaUsers } from "react-icons/fa";
+import { BsUbuntu } from "react-icons/bs";
 
 const BusinessDashboardLayout = () => {
     return (
@@ -15,22 +19,17 @@ const BusinessDashboardLayout = () => {
                 <section className='BusinesswriteUpMiddleDiv'>
                     <div className='BusinessholdWriteUp'>
                         <NavLink to={"/businessDashboard"} className={({ isActive }) => isActive ? 'isactives' : 'isnotactives'}>
-                            <img src="./grace.png" alt="" />
+                        <TbLayoutDashboard style={{width:"30px", height:"30px"}}/>
                             <p>Dashboard</p>
                         </NavLink>
 
-                        <NavLink to={"/businessOrder"} className={({ isActive }) => isActive ? 'isactives' : 'isnotactives'}>
-                            <img src="./grace.png" alt="" />
-                            <p>Order</p>
-                        </NavLink>
-
                         <NavLink to={"/businessUser"} className={({ isActive }) => isActive ? 'isactives' : 'isnotactives'}>
-                            <img src="./grace.png" alt="" />
+                        <FaUsers style={{width:"30px", height:"30px"}} />
                             <p>User</p>
                         </NavLink>
 
                         <NavLink to={"/businessSubscribe"} className={({ isActive }) => isActive ? 'isactives' : 'isnotactives'}>
-                            <img src="./grace.png" alt="" />
+                        <BsUbuntu style={{width:"30px", height:"30px"}} />
                             <p>Subscribe</p>
                         </NavLink>
                     </div>
