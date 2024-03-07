@@ -1,5 +1,6 @@
 import React from 'react'
 import "./BusinessDashBoard.css"
+import { Outlet } from 'react-router-dom/dist/umd/react-router-dom.development'
 
 const BusinessDashBoard = () => {
     return (
@@ -70,7 +71,7 @@ const BusinessDashBoard = () => {
                         <p>x</p>
                     </section>
                     
-
+                    <Outlet/>
                 </div>
             </article>
 

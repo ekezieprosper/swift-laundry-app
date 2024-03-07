@@ -1,14 +1,24 @@
 import React, { useEffect, useState } from 'react';
 import "./WashPage.css";
 import axios from 'axios';
+import { useParams } from 'react-router-dom';
 
 const WashPage = () => {
     const [shortTrouser, setClothName] = useState([]);
     const [quantity, setQuantity] = useState([]);
-    const [allOrder, setAllOrder] = useState([]);
+    const [grandTotal, setGranTotal] = useState("0");
     const [allUserOrder, setAllUserOrder] = useState([]);
+
+    const [item, setCollectCart] = useState([])
+    const [pickupAddress, setPickUpAddress] = useState("")
+    const [deliveryAddress, setDeliveryAddress] = useState("")
+    const [pickupDateTime, setPickDate] = useState("")
+    const [deliveryDateTime, setDeliveryDate] = useState("")
+
+    console.log(pickupAddress)
     useEffect(() => {
         const token = localStorage.getItem("userToken");
+
         const fetchData = async () => {
             try {
                 const response = await axios.get("https://swift-laundry.vercel.app/get-all-items", {
@@ -18,30 +28,34 @@ const WashPage = () => {
                 });
                 setClothName(response.data.data);
             } catch (error) {
-                console.log(error.data);
+                console.log(error);
             }
         }
+
         const fetchData1 = async () => {
             try {
-                const response = await axios.get("https://swift-laundry.vercel.app/get-all-order", {
+                const response = await axios.get("https://swift-laundry.vercel.app/get-cart-items", {
                     headers: {
                         'Authorization': `Bearer ${token}`
                     }
                 });
-                setAllOrder(response.data.data);
+                setCollectCart(response.data.data);
+                console.log(response.data)
+                setGranTotal(response.data.grandTotal);
             } catch (error) {
-                console.log(error.data);
+                console.log(error);
             }
         }
+
+        fetchData1();
         fetchData();
-        fetchData1()
-    }, [allOrder]);
+    }, [item]);
 
     const handleOrder = async (qq, index, id) => {
         console.log({ quantity: qq, index, id });
         try {
             const token = localStorage.getItem("userToken");
-            const response = await axios.post("https://swift-laundry.vercel.app/create-order", {
+            const response = await axios.post("https://swift-laundry.vercel.app/add-to-cart", {
                 quantity: qq,
                 itemId: id
             }, {
@@ -63,29 +77,49 @@ const WashPage = () => {
         setQuantity(updatedQuantity);
     };
 
-    useEffect(()=>{
-        const handlePost = async (qq, index, id) => {
-            console.log({ quantity: qq, index, id });
-            try {
-                const token = localStorage.getItem("userToken");
-                const response = await axios.post("https://swift-laundry.vercel.app/create-user-order", {
-                    quantity: qq,
-                    itemId: id
-                }, {
-                    headers: {
-                        'Authorization': `Bearer ${token}`
-                    }
-                });
-                setAllUserOrder(response.data)
-                console.log("Order created:", response.data);
-                // Handle success or further operations here
-            } catch (error) {
-                console.log("Error creating order:", error);
-                // Handle error here
+    // const handlePost = async (qq, index, id) => {
+    //     console.log({ quantity: qq, index, id });
+    //     try {
+    //         const token = localStorage.getItem("userToken");
+    //         const response = await axios.post(`https://swift-laundry.vercel.app/create-user-order/${id}`, {
+    //             quantity: qq,
+    //             itemId: id
+    //         }, {
+    //             headers: {
+    //                 'Authorization': `Bearer ${token}`
+    //             }
+    //         });
+    //         setAllUserOrder(response.data);
+    //         console.log("Order created:", response.data);
+    //         // Handle success or further operations here
+    //     } catch (error) {
+    //         console.log("Error creating order:", error);
+    //         // Handle error here
+    //     }
+    // };
+    const { id } = useParams()
+    const newId = id.substring(1)
+    const data = { pickupDateTime, pickupAddress, deliveryAddress, deliveryDateTime, item, grandTotal }
+
+    const token = localStorage.getItem("userToken");
+
+    const fetchUserOrder = async () => {
+        try {
+            const response = await axios.post(`https://swift-laundry.vercel.app/create-user-order/${newId}`, data, {
+                headers: {
+                    'Authorization': `Bearer ${token}`
+                }
+            });
+            if (response.data && response.data.data) {
+                console.log(response.data.data);
+                // Update state or perform any further operations here
+            } else {
+                console.log("Response data is not in the expected format:", response.data);
             }
-        };
-        handlePost()
-    },["userToken"])
+        } catch (error) {
+            console.log("Error fetching user order:", error);
+        }
+    }
 
 
     return (
@@ -111,43 +145,39 @@ const WashPage = () => {
                     ))}
                 </section>
 
-
                 <section className='inputMainDiv'>
                     <div className='inp1'>
-                        <input type="text" placeholder='Enter your pick up address' className='pickupAdd' />
-                        <input type="datetime-local" className='dateTimess' />
+                        <input type="text" placeholder='Enter your pick up address' className='pickupAdd' onChange={(e) => setPickUpAddress(e.target.value)} />
+                        <input type="datetime-local" className='dateTimess' onChange={(e) => setPickDate(e.target.value)} />
                     </div>
 
                     <div className='inp2'>
-                        <input type="text" placeholder='Enter your delivery address' className='pickupAdd2' />
-                        <input type="datetime-local" className='dateTimess2' />
+                        <input type="text" placeholder='Enter your delivery address' className='pickupAdd2' onChange={(e) => setDeliveryAddress(e.target.value)} />
+                        <input type="datetime-local" className='dateTimess2' onChange={(e) => setDeliveryDate(e.target.value)} />
                     </div>
 
                     <div className='totalDiv'>
-                        <p>Total: N1000</p>
-                        <p></p>
-                        <article className='viewButton'>Pay</article>
+                        <p>Total: {grandTotal}</p>
+                        <article className='viewButton' onClick={fetchUserOrder}>Pay</article>
                     </div>
                 </section>
             </article>
 
             <section className='secondMainDiv'>
                 <article className='addShowDiv'>
-                    {
-                        allOrder.map((e) => (
-                            <div className='addShowCard'>
-                                <article className='ImgADD'>
-                                    <img src={e.item?.imagee} alt="" />
-                                </article>
-                                <article className='write-up-Add'>
-                                    <p>{e.item?.item}</p>
-                                    <p>Qty: {e.quantity}</p>
-                                    <p>Amount: {e.item?.Price}</p>
-                                    <p style={{ fontWeight: "bold" }}>Sub-Total: {e.total}</p>
-                                </article>
-                            </div>
-                        ))
-                    }
+                    {item && item.map((order, index) => (
+                        <div className='addShowCard' key={index}>
+                            <article className='ImgADD'>
+                                <img src={order.item?.imagee} alt="" />
+                            </article>
+                            <article className='write-up-Add'>
+                                <p>{order.item?.item}</p>
+                                <p>Qty: {order.quantity}</p>
+                                <p>Amount: {order.item.Price}</p>
+                                <p style={{ fontWeight: "bold" }}>Sub-Total: {order.total}</p>
+                            </article>
+                        </div>
+                    ))}
                 </article>
             </section>
         </div>

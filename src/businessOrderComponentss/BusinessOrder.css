@@ -1,0 +1,165 @@
+.BusinessmainDashboardDivsq{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;    
+}
+.BusinesstaskNumberDivq{
+    width: 90%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5%;
+    /* background-color: rgb(234, 176, 82); */
+}
+.BusinesscardNumbers1q{
+    width: 32%;
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px ;
+    cursor: pointer;
+    background-color: rgb(238, 237, 237);
+    transition: all 350ms ease-in
+}
+.BusinesscardNumbers1q:hover{
+    width: 32%;
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px ;
+    cursor: pointer;
+    background-color: rgb(210, 210, 210);
+}
+.BusinesscardNumbers1q p{
+    width: 100%;
+    font-size: 20px;
+    margin-top: 5%;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.BusinesscardNumbers1q h1{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.BusinesscardNumbers2q{
+    width: 32%;
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px ;
+    cursor: pointer;
+    transition: all 350ms ease-in;
+    background-color:#ffedd5;
+}
+.BusinesscardNumbers2q:hover{
+    width: 32%;
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px ;
+    cursor: pointer;
+    background-color:#f8dbb5;
+}
+.BusinesscardNumbers2q p{
+    width: 100%;
+    font-size: 20px;
+    margin-top: 5%;
+    font-weight: 700;
+    color: #FF9C07;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.BusinesscardNumbers2q h1{
+    font-size: 25px;
+    font-weight: 700;
+    color: #FF9C07;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.BusinesscardNumbers3q{
+    width: 32%;
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px ;
+    transition: all 350ms ease-in;
+    cursor: pointer;
+    background-color: rgb(198, 234, 198);
+}
+.BusinesscardNumbers3q:hover{
+    width: 32%;
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px ;
+    background-color: rgb(153, 238, 153);
+}
+.BusinesscardNumbers3q p{
+    width: 100%;
+    font-size: 20px;
+    margin-top: 5%;
+    font-weight: 700;
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.BusinesscardNumbers3q h1{
+    font-size: 25px;
+    font-weight: 700;
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.BusinessitemOrderDivq{
+    width: 92%;
+    height: 63%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 2%;
+    box-shadow: 0 0 10px rgb(235, 234, 234);
+    background-color: white;
+}
+.BusinesscompanyDivq{
+    width: 95%;
+    height: 10%;
+    margin-top: 2%;
+    display: flex;
+    border-bottom: 1px solid rgb(222, 220, 220);
+    /* background-color: rgb(205, 194, 194); */
+}
+.BusinesscompanyDivq p{
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    margin-right: 7%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* box-shadow: 0 0 10px rgb(235, 234, 234); */
+    /* background-color: rgb(141, 108, 108); */
+}
+.BusinesscompanyDiv2q{
+    width: 95%;
+    height: 90%;
+    margin-top: 1%;
+    overflow-y: scroll;
+    /* background-color: rgb(205, 194, 194); */
+}
+.BusinessorderOtemsq{
+    width: 100%;
+    height: 15%;
+    margin-top: 0.9%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgb(209, 232, 255);
+    box-shadow: 0 0 10px rgb(240, 237, 237);
+    /* background-color: white; */
+}
+.BusinessorderOtemsq p{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: white; */
+}
