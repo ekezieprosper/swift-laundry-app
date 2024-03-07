@@ -119,10 +119,10 @@ const Order = () => {
 
       {/* {showDoLaundry ? <DoLaundryModal showDoLaundry={showDoLaundry} setShowDoLaundry={setShowDoLaundry} /> : ""} */}
 
-      {
+      {/* {
         userInfo == "" ?
           <LocationModal /> : !userInfo == "" ? null : null && !userInfo == "" ? false :false
-      }
+      } */}
     </div>
   )
 }

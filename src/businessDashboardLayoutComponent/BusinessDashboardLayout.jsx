@@ -19,17 +19,17 @@ const BusinessDashboardLayout = () => {
                 <section className='BusinesswriteUpMiddleDiv'>
                     <div className='BusinessholdWriteUp'>
                         <NavLink to={"/businessDashboard"} className={({ isActive }) => isActive ? 'isactives' : 'isnotactives'}>
-                        <TbLayoutDashboard style={{width:"30px", height:"30px"}}/>
+                            <TbLayoutDashboard style={{ width: "30px", height: "30px" }} />
                             <p>Dashboard</p>
                         </NavLink>
 
-                        <NavLink to={"/businessUser"} className={({ isActive }) => isActive ? 'isactives' : 'isnotactives'}>
-                        <FaUsers style={{width:"30px", height:"30px"}} />
+                        <NavLink to={"/businessOrder"} className={({ isActive }) => isActive ? 'isactives' : 'isnotactives'}>
+                            <FaUsers style={{ width: "30px", height: "30px" }} />
                             <p>User</p>
                         </NavLink>
 
                         <NavLink to={"/businessSubscribe"} className={({ isActive }) => isActive ? 'isactives' : 'isnotactives'}>
-                        <BsUbuntu style={{width:"30px", height:"30px"}} />
+                            <BsUbuntu style={{ width: "30px", height: "30px" }} />
                             <p>Subscribe</p>
                         </NavLink>
                     </div>
