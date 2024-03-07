@@ -1,8 +1,29 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./ShopPage.css"
 import Footer from '../footerComponent/Footer'
 
 const CardComponent = () => {
+  const [shopsPage, setShopsPage] = useState("")
+
+
+  // const handleShops = (e) => {
+  //   const yourShops = e.target.value
+  //   setShopsPage(yourShops)
+  // }
+  const url = "https://swiftlaundry.vercel.app/get-my-shops"
+  const data = { shops: shopsPage }
+
+  const handleShops = async () => {
+    try {
+      const response = await axios.get(url);
+      console.log("clicked");
+      console.log("r", response);
+    } catch {
+
+    }
+  }
+
+
   return (
     <>
       <div className='cardsForShopping'>
@@ -12,9 +33,8 @@ const CardComponent = () => {
         <h2>Cleaneat Laundry</h2>
         <p>161,muyibi,olodi Apapa.</p>
         <h5>34km Away</h5>
-        <button className='BTN1'>View</button>
+        <button className='BTN1' onClick={handleShops}>View</button>
       </div>
-      
     </>
   )
 }
@@ -40,11 +60,9 @@ const ShopPage = () => {
           <CardComponent />
           <CardComponent />
           <CardComponent />
-          
-
         </div>
       </div>
-      
+
     </div>
   )
 }

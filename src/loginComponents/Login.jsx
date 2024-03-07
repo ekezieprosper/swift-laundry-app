@@ -33,17 +33,15 @@ const Login = () => {
 
     try {
       setIsLoading(true);
-      // console.log("pass");
+      console.log("pass");
       const response = await axios.post(url, data);
-      console.log(response)
       Swal.fire({
         title: "Login Successful",
         text: response.data?.message,
         icon: "success",
       });
       navigate("/dashboards")
-      localStorage.setItem('userToken', response.data?.data)
-      // console.log(response.data.data)
+
 
     } catch (err) {
       if (err.response) {
@@ -65,7 +63,7 @@ const Login = () => {
     navigate(-1)
   }
 
-
+  
   const navigateToHome = () => {
     navigate("/")
   }
@@ -82,7 +80,7 @@ const Login = () => {
         <section className='wholebodysa'>
           <div className='registerdContainersa'>
             <div className='registerdLogoContainersa'>
-              <img onClick={navigateToHome} src="./grace.png" alt="" />
+              <img onClick={navigateToHome} src="./grace.png" alt="" className='swiftLaundryLogo'/>
               <div className='spansa'>
                 <h1> Login</h1>
               </div>
@@ -94,7 +92,7 @@ const Login = () => {
                 <input required type="email" className='BusinessNamesa' placeholder='Enter your email' onChange={handleEmail} />
                 <h3>Password</h3>
                 <div className="addresssa">
-                  <input required type={!show ? "password" : "text"} placeholder='Enter your password' className='' onChange={handlePassword} />
+                  <input required type={!show ? "password"  : "text"} placeholder='Enter your password' className='' onChange={handlePassword} />
                   <div onClick={showEyeIcon} className="eye_icon">
                     {!show ? <IoIosEyeOff /> : <IoMdEye />}
                   </div>
@@ -105,7 +103,7 @@ const Login = () => {
             <div className='registeredBtnContainersa'>
               <button disabled={isLoading} type='submit' className='signUpsa'>{isLoading ? <BeatLoader color="white" /> : "Login"}</button>
               <div className='alreadyHaveAccountsa'>
-                <span >Don't have an account? <Link style={{ textDecoration: "none" }} to="/signup"><b>Login</b></Link></span>
+                <span >Don't have an account? <Link style={{ textDecoration: "none" }} to="/signup"><b>Sign Up</b></Link></span>
               </div>
             </div>
           </div>
@@ -115,7 +113,7 @@ const Login = () => {
       <div onClick={navigateBack} className="back_icon">
         <IoMdArrowRoundBack size={30} />
       </div>
-
+      
     </div>
   )
 }

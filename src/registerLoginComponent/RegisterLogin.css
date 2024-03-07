@@ -1,4 +1,4 @@
-.wholebodysa {
+.wholebodys {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -7,7 +7,7 @@
     background-color: rgb(252, 252, 252);
 }
 
-.registerdContainersa {
+.registerdContainers {
     height: 70%;
     width: 35%;
     background: rgb(255, 255, 255);
@@ -23,18 +23,19 @@
 }
 
 
-.registerdLogoContainersa {
+.registerdLogoContainers {
     height: 20%;
     width: 90%;
-    /* background: red; */
+    background: red;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 20%;
 }
 
 
-.spansa {
+.spans {
     height: 50%;
     width: 90%;
     /* background: green; */
@@ -45,10 +46,10 @@
 }
 
 
-.spansa h1 {
+.spans h1 {
     height: 90%;
     width: 100%;
-    color: blue;
+    color:  rgb(44, 143, 200);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
     display: flex;
@@ -59,15 +60,14 @@
 }
 
 
-.registerdLogoContainersa span {
+.registerdLogoContainers span {
 
     background: red;
     color: rgb(64, 176, 241);
 }
 
 
-
-.inputContainerssa {
+.inputContainerss {
     height: 50%;
     width: 83%;
     /* background: rgb(44, 127, 152); */
@@ -77,7 +77,7 @@
     flex-direction: column;
 }
 
-.inputContainerssa h3 {
+.inputContainerss h3 {
     height: 15%;
     width: 83%;
     margin-bottom: 3%;
@@ -90,7 +90,7 @@
 }
 
 
-.registeredBtnContainersa {
+.registeredBtnContainers {
     height: 23%;
     width: 83%;
     /* background: yellow; */
@@ -101,7 +101,7 @@
 }
 
 
-.registeredInputContainer1sa {
+.registeredInputContainer1s {
     height: 85%;
     width: 100%;
     /* background: navy; */
@@ -111,7 +111,7 @@
     flex-direction: column;
 }
 
-.BusinessNamesa {
+.BusinessNames {
     height: 70%;
     width: 100%;
     padding-left: 10px;
@@ -121,27 +121,19 @@
 
 }
 
-.addresssa {
+.addresss {
     height: 70%;
     width: 100%;
     outline-color: rgb(190, 190, 255);
+    padding-left: 10px;
     border: 1px solid rgb(177, 175, 175);
     border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 
-.addresssa > input {
-    border: 0;
-    outline: none;
-    width: 100%;
-    padding-left: 10px;
-}
 
 
-.signUpsa {
+.signUps {
     height: 55%;
     width: 100%;
     background: rgb(44, 143, 200);
@@ -152,47 +144,31 @@
 }
 
 
-.alreadyHaveAccountsa {
+.alreadyHaveAccounts {
     height: 20%;
-    width: 60%;
+    width: 80%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* background: red; */
 }
 
-.alreadyHaveAccountsa b {
+.alreadyHaveAccounts b {
     height: 20%;
-    width: 60%;
-    color: blue;
+    width: 80%;
+    /* font-size: 10px; */
+    color: rgb(64, 176, 241);
     cursor: pointer;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* background: red; */
 }
 
 
-.login_card{
-    height: 100vh;
-    width: 100vw;
-    background: lavender;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.popUp_Card{
-    height: 70%;
-    width: 40%;
-    background: white;
-    border-radius: 10px;
-
-}
-
 
 
 
 @media screen and (max-width:500px) {
     
-    .wholebodysa {
+
+    .wholebodys {
         width: 100%;
         height: 100vh;
         display: flex;
@@ -202,11 +178,10 @@
         /* background: red; */
     }
     
-    .registerdContainersa {
-        height: 75%;
+    .registerdContainers {
+        height: 70%;
         width: 65%;
         background: rgb(255, 255, 255);
-        /* background: red; */
         border-radius: 10px;
         -webkit-box-shadow: -5px -7px 25px -3px rgba(204, 212, 247, 0.69);
         -moz-box-shadow: -5px -7px 25px -3px rgba(189, 200, 249, 0.69);
@@ -219,7 +194,7 @@
     }
     
     
-    .registerdLogoContainersa {
+    .registerdLogoContainers {
         height: 20%;
         width: 90%;
         /* background: red; */
@@ -230,7 +205,7 @@
     }
     
     
-    .spansa {
+    .spans {
         height: 50%;
         width: 90%;
         /* background: green; */
@@ -241,10 +216,11 @@
     }
     
     
-    .spansa h1 {
+    .spans h1 {
         height: 90%;
         width: 100%;
         color: rgb(64, 176, 241);
+        /* color: blue; */
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 30px;
         display: flex;
@@ -255,15 +231,14 @@
     }
     
     
-    .registerdLogoContainersa span {
+    .registerdLogoContainers span {
     
         background: red;
         color: rgb(64, 176, 241);
     }
     
     
-    
-    .inputContainerssa {
+    .inputContainerss {
         height: 50%;
         width: 83%;
         /* background: rgb(44, 127, 152); */
@@ -273,7 +248,7 @@
         flex-direction: column;
     }
     
-    .inputContainerssa h3 {
+    .inputContainerss h3 {
         height: 15%;
         width: 83%;
         margin-bottom: 3%;
@@ -286,7 +261,7 @@
     }
     
     
-    .registeredBtnContainersa {
+    .registeredBtnContainers {
         height: 23%;
         width: 83%;
         /* background: yellow; */
@@ -297,7 +272,7 @@
     }
     
     
-    .registeredInputContainer1sa {
+    .registeredInputContainer1s {
         height: 85%;
         width: 100%;
         /* background: navy; */
@@ -307,7 +282,7 @@
         flex-direction: column;
     }
     
-    .BusinessNamesa {
+    .BusinessNames {
         height: 70%;
         width: 100%;
         padding-left: 10px;
@@ -317,27 +292,19 @@
     
     }
     
-    .addresssa {
+    .addresss {
         height: 70%;
         width: 100%;
         outline-color: rgb(190, 190, 255);
+        padding-left: 10px;
         border: 1px solid rgb(177, 175, 175);
         border-radius: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     
     
-    .addresssa > input {
-        border: 0;
-        outline: none;
-        width: 100%;
-        padding-left: 10px;
-    }
     
     
-    .signUpsa {
+    .signUps {
         height: 55%;
         width: 100%;
         background: rgb(44, 143, 200);
@@ -348,38 +315,20 @@
     }
     
     
-    .alreadyHaveAccountsa {
-        height: 40%;
-        width: 95%;
+    .alreadyHaveAccounts {
+        height: 20%;
+        width: 80%;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         /* background: red; */
     }
     
-    .alreadyHaveAccountsa b {
+    .alreadyHaveAccounts b {
         height: 20%;
-        width: 60%;
-        color: blue;
+        width: 80%;
+        /* font-size: 10px; */
+        color: rgb(64, 176, 241);
         cursor: pointer;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         /* background: red; */
-    }
-    
-    
-    .login_card{
-        height: 100vh;
-        width: 100vw;
-        background: lavender;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    
-    .popUp_Card{
-        height: 70%;
-        width: 40%;
-        background: white;
-        border-radius: 10px;
-    
     }
 }

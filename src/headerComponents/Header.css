@@ -10,7 +10,7 @@
     display: flex;
     position: sticky;
     top: 0;
-    z-index: 99999;
+    z-index: 99999999999;
     justify-content: space-around;
     background-color: white;
     box-shadow: 0 0 8px lightsteelblue;
@@ -64,6 +64,25 @@
     /* background-color: rgb(127, 157, 255); */
 }
 
+
+.swiftLaundryLogo{
+    height:70px;
+    width:70px;
+}
+.swiftLaundryLogo1{
+    height:20px;
+    width:20px;
+}
+.swiftLaundryLogo2{
+    height:20px;
+    width:20px;
+}
+.swiftLaundryLogo1{
+    height:20px;
+    width:20px;
+}
+
+
 .main_loginButton {
     width: 35%;
     height: 70%;
@@ -80,7 +99,7 @@
     color: #35BAEA;
 }
 
-.main_loginButton:hover{
+.main_loginButton:hover {
     width: 35%;
     height: 70%;
     border-radius: 10px;
@@ -89,6 +108,8 @@
     border: 1px solid rgb(168, 195, 212);
     border: 1px solid rgb(168, 195, 212);
     background-color: #35BAEA;
+
+
 }
 
 .loginButton:hover {
@@ -146,13 +167,13 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.active:hover{
-    transition: all 450ms ;
+.active:hover {
+    transition: all 450ms;
     transform: scale(1.2);
 }
 
-.inactive:hover{
-    transition: all 450ms ;
+.inactive:hover {
+    transition: all 450ms;
     transform: scale(1.2);
 }
 
@@ -177,6 +198,10 @@
 ::-webkit-scrollbar-track {
     background-color: transparent;
     border-radius: 7px;
+}
+
+.mobile_header {
+    display: none;
 }
 
 
@@ -1522,6 +1547,93 @@
         background-color: white;
         transform: scale(0.3s);
     }
+
+    .mobile_header {
+        width: 100%;
+        backdrop-filter: blur(5px);
+        height: 100vh;
+        display: flex;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        justify-content: end;
+        transition: all 350ms;
+    }
+
+    .mobile_wrapper {
+        width: 300px;
+        background-color: #35BAEA;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        padding-top: 20px;
+
+    }
+
+    .mobile_nav,
+    .mobile_wrapper> :nth-child(7),
+    .mobile_wrapper> :last-child {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        cursor: pointer;
+        color: white;
+        margin-bottom: 10px;
+        transition: all 350ms ease-in-out;
+    }
+
+    .mobile_nav {
+        color: white;
+        text-decoration: underline;
+        font-weight: 700;
+        width: 84%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+
+    .mobile_nav:hover {
+        color: #35BAEA;
+        background-color: white;
+        height: 30px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .mobile_wrapper> :nth-child(7){
+        padding: 12px 50px;
+        border: 0;
+        outline: none;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        font-weight: 700;
+        background-color: white;
+        color: #35BAEA;
+    }
+    .mobile_wrapper> :last-child {
+        padding: 12px 50px;
+        border: 0;
+        outline: none;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        background-color: transparent;
+        border: 1px solid white;
+        font-weight: 700;
+        width: 160px;
+    }
+
+    .mobile_wrapper> :nth-child(7):hover {
+        color: #35BAEA;
+    }
+
+    .mobile_wrapper> :last-child:hover {
+        background-color: white;
+        color: #35BAEA;
+    }
+
+
+
 }
 
 @media screen and (max-width: 800px) and (min-width: 500px) {

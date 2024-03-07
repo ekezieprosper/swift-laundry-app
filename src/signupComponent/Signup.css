@@ -252,7 +252,7 @@
 .alreadyHaveAccounta b {
     height: 20%;
     width: 60%;
-    color: blue;
+    color: rgb(44, 143, 200);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor: pointer;
     margin-left: 5px;
@@ -276,38 +276,42 @@
 
 
 
-@media screen and (width <=414px) {
-    .wholebody {
+@media screen and (max-width:500px) {
+    .wholebodya {
         width: 100%;
         height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
-        /* background-color: aqua; */
+        background-color: rgb(252, 252, 252);
+        /* background: red; */
     }
 
-    .bodyspace {
-        width: 80%;
-        height: 85%;
-        /* background-color: white; */
-        border-radius: 10px;
-        box-shadow: 6px 9px 16px 4px rgba(82, 67, 67, 0.52);
-        -webkit-box-shadow: 6px 9px 16px 4px rgba(82, 67, 67, 0.52);
-        -moz-box-shadow: 6px 9px 16px 4px rgba(82, 67, 67, 0.52);
-    }
+    
+.registerdContainera {
+    height: 89%;
+    width: 65%;
+    background: white;
+    border-radius: 10px;
+    -webkit-box-shadow: -5px -7px 25px -3px rgba(204, 212, 247, 0.69);
+    -moz-box-shadow: -5px -7px 25px -3px rgba(189, 200, 249, 0.69);
+    box-shadow: -5px -7px 25px -3px rgba(189, 200, 249, 0.69);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: aqua; */
+}
 
-    .logo {
-        width: 100%;
-        height: 30%;
-        /* background-color: black; */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: x-small;
-    }
 
+
+
+.alreadyHaveAccounta {
+    height: 10%;
+    width: 80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background: green; */
+}
 }
 
 

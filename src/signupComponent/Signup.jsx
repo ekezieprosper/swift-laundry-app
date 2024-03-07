@@ -59,6 +59,8 @@ const Signup = () => {
   const url = "https://swift-laundry.onrender.com/register-User"
   const data = { firstName: firstName, lastName: lastName, email: email, password: password, confirmPassword: confirmPassword, phoneNumber: phoneNumber }
   console.log(url, data);
+  const navigates = useNavigate()
+
   const handleSubmitForm = async (e) => {
     e.preventDefault();
 
@@ -71,6 +73,7 @@ const Signup = () => {
         icon: "success",
         timer: 5000
       });
+      navigates("/login")
     } catch (err) {
       console.log("errr", err);
       if (err.response) {
@@ -104,7 +107,7 @@ const Signup = () => {
         <div className='wholebodya'>
           <div className='registerdContainera'>
             <div className='registerdLogoContainera'>
-              <img onClick={navigateToHome} src="./grace.png" alt="" />
+              <img onClick={navigateToHome} src="./grace.png" alt="" className='swiftLaundryLogo'/>
               <div className='spana'>
                 <h1>Sign up</h1>
               </div>

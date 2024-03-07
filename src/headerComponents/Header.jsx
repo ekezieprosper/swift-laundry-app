@@ -81,6 +81,12 @@ const Header = () => {
   const removeLoginModule = () => {
     setShows(false)
     setShow(false)
+    setShowMenu(false)
+  }
+
+  const [showMenu, setShowMenu] = useState(false)
+  const showBuggerMenu = () => {
+    setShowMenu(!showMenu)
   }
 
   return (
@@ -115,8 +121,9 @@ const Header = () => {
             smooth={true}
             offset={-100}
             duration={500}
+            to='offer'
             className={showOffer ? "active" : "inactive"}
-            to='offer'>
+          >
             <NavLink
               to=""
               className={showOffer ? "active" : "inactive"}
@@ -128,9 +135,9 @@ const Header = () => {
             smooth={true}
             offset={-100}
             duration={500}
+            to='plans'
             onClick={handleShowPlans}
             className={showPlans ? "active" : "inactive"}
-            to='plans'
           >
             <NavLink
               className={showPlans ? "active" : "inactive"}
@@ -147,7 +154,7 @@ const Header = () => {
           <NavLink
             onClick={handleShowContact}
 
-            to="contactPage/"
+            to="/contactPage"
             className={showContact ? "active" : "inactive"}>Contact</NavLink>
         </ul>
       </section>
@@ -162,9 +169,54 @@ const Header = () => {
         </div>
       </section>
 
-      <section className='burgerIconImage'>
+      <section onClick={showBuggerMenu} className='burgerIconImage'>
         <img src="./burger.png" alt="" />
       </section>
+
+      {
+        showMenu && (
+          <div className="mobile_header">
+            <div className="mobile_wrapper">
+              <Link onClick={removeLoginModule} smooth={true}
+                offset={-100}
+                duration={500}
+                to='home' className="mobile_nav" >
+                <NavLink style={{ textDecoration: "none", color: "white" }} to="/">
+                  Home
+                </NavLink>
+              </Link>
+              <NavLink
+                onClick={removeLoginModule}
+                to="/shopPage"
+                className="mobile_nav">Shops</NavLink>
+              <Link
+                onClick={removeLoginModule}
+                smooth={true}
+                offset={-100}
+                duration={500}
+                to='offer'
+                className="mobile_nav">Offers</Link>
+              <Link
+                onClick={removeLoginModule}
+                smooth={true}
+                offset={-100}
+                duration={500}
+                to='plans'
+                className="mobile_nav">Plans</Link>
+              <NavLink
+                onClick={removeLoginModule}
+                to="/aboutPage"
+                className="mobile_nav">About</NavLink>
+              <NavLink
+                to="/contactPage"
+                onClick={removeLoginModule}
+                className="mobile_nav">Contact</NavLink>
+              <button onClick={showLoginModules}>Sign Up</button>
+              <button onClick={showLoginModule}>Login</button>
+            </div>
+          </div>
+        )
+      }
 
       <>
         {show ? <LoginModules onClick={removeLoginModule} /> : null}
