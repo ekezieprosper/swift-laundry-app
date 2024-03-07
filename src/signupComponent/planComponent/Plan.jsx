@@ -16,28 +16,28 @@ const Plan = () => {
           <div className='MoneyContainer1'>
             <h1>#22,000/ month</h1>
             <h3>Monthly plan</h3>
-            <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque ex, aliquam omnis dolor delectus .</h5>
+            <h5></h5>
           </div>
           <div className='MoneyContainer2'>
             <div className='Customer'>
-              <img src="./mark.png" alt="" className="confirmLogo"/>
+              <img src="./mark.png" alt="" className="confirmLogo" />
               <h5>100% Customer Satisfaction</h5>
             </div>
             <div className='Pick'>
-              <img src="./mark.png" alt="" className="confirmLogo"/>
+              <img src="./mark.png" alt="" className="confirmLogo" />
               <h5>Fast Pick and Delivery</h5>
             </div>
             <div className='Prices'>
-              <img src="./mark.png" alt="" className="confirmLogo"/>
+              <img src="./mark.png" alt="" className="confirmLogo" />
               <h5>Affordable Prices</h5>
             </div>
             <div className='Affordable'>
-            <img src="./mark.png" alt="" className="confirmLogo"/>
-              <h5>Affordable Prices</h5>
+              <img src="./mark.png" alt="" className="confirmLogo" />
+              <h5>No disappointment</h5>
             </div>
             <div className='Affordable'>
-              <img src="./mark.png" alt="" className="confirmLogo"/>
-              <h5>Affordable Prices</h5>
+              <img src="./mark.png" alt="" className="confirmLogo" />
+              <h5>Exceptional cleaning quality</h5>
             </div>
           </div>
           <div className='MoneyContainer3'>
@@ -47,29 +47,29 @@ const Plan = () => {
 
         <article className='yearDiv'>
           <div className='MoneyContainer1'>
-            <h1>#180,000/ year</h1>
+            <h1>#200,000/ year</h1>
             <h3>yearly plan</h3>
-            <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque ex, aliquam omnis dolor delectus .</h5>
+            <h5></h5>
           </div>
           <div className='MoneyContainer2'>
             <div className='Customer'>
-              <img src="./mark.png" alt="" className="confirmLogo"/>
+              <img src="./mark.png" alt="" className="confirmLogo" />
               <h5>100% Customer Satisfaction</h5>
             </div>
             <div className='Pick'>
-              <img src="./mark.png" alt="" className="confirmLogo"/>
+              <img src="./mark.png" alt="" className="confirmLogo" />
               <h5>Fast Pick and Delivery</h5>
             </div>
             <div className='Prices'>
-              <img src="./mark.png" alt="" className="confirmLogo"/>
+              <img src="./mark.png" alt="" className="confirmLogo" />
+              <h5>Affordable percentage</h5>
+            </div>
+            <div className='Affordable'>
+              <img src="./mark.png" alt="" className="confirmLogo" />
               <h5>Affordable Prices</h5>
             </div>
             <div className='Affordable'>
-              <img src="./mark.png" alt="" className="confirmLogo"/>
-              <h5>Affordable Prices</h5>
-            </div>
-            <div className='Affordable'>
-              <img src="./mark.png" alt="" className="confirmLogo"/>
+              <img src="./mark.png" alt="" className="confirmLogo" />
               <h5>Affordable Prices</h5>
             </div>
           </div>

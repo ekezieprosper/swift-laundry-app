@@ -8,7 +8,7 @@ import { useNavigate } from 'react-router-dom/dist/umd/react-router-dom.developm
 import { Link } from 'react-scroll';
 import { IoIosEyeOff, IoMdArrowRoundBack, IoMdEye } from 'react-icons/io';
 
-constRegisterSignUp = () => {
+const RegisterSignUp = () => {
   const [businessName, setBusinessName] = useState("")
   const [address, setAddress] = useState("")
   const [email, setBusinessEmail] = useState("")
