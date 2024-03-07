@@ -42,8 +42,8 @@
 }
 
 .pickUpDiv {
-    width: 23%;
-    height: 65%;
+    width: 25%;
+    height: 70%;
     border-radius: 10px;
     margin-bottom: 3%;
     display: flex;
@@ -76,8 +76,8 @@
 }
 
 .washDiv {
-    width: 23%;
-    height: 65%;
+    width: 25%;
+    height: 70%;
     border-radius: 10px;
     margin-bottom: 3%;
     display: flex;
@@ -114,8 +114,8 @@
 }
 
 .deliverDiv {
-    width: 23%;
-    height: 65%;
+    width: 25%;
+    height: 70%;
     border-radius: 10px;
     margin-bottom: 3%;
     background-color: white;
@@ -316,7 +316,7 @@
 @media screen and (max-width: 500px) {
     .howWeWorkMainDiv {
         width: 100%;
-        height: 180vh;
+        height: 200vh;
         /* background-color: rgb(250, 248, 248); */
         /* background: blue; */
         /* display: flex;
@@ -353,34 +353,31 @@
         width: 100%;
         height: 95%;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         flex-direction: column;
         align-items: center;
-        margin-top: 20px;
-        /* gap: 6px; */
+        /* margin-top: 20px; */
+        gap: 6px;
         /* background-color: rgb(207, 201, 201);     */
         /* background: green; */
 
     }
 
     .pickUpDiv {
-        width: 90%;
-        height: 30%;
+        width: 80%;
+        height: 43%;
         border-radius: 10px;
-        /* margin-bottom: 3%; */
+        margin-top:10%;
         display: flex;
         align-items: center;
         flex-direction: column;
         background-color:white;
         box-shadow: 0 0 10px lightgray;
-        /* margin-top:35%; */
-        font-size: 20px;
-
     }
 
     .pickUpLogo {
         width: 58px;
-        height: 20px;
+        height: 58px;
         border-radius: 10px;
         margin-top: 6%;
         /* background-color: rgb(194, 185, 185); */
@@ -399,10 +396,10 @@
     }
 
     .washDiv {
-        width: 90%;
-        height: 30%;
+        width: 80%;
+        height: 43%;
         border-radius: 10px;
-        /* margin-bottom: 3%; */
+        /* margin-top:10%; */
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -413,7 +410,7 @@
 
     .washLogo {
         width: 58px;
-        height: 20px;
+        height: 58px;
         border-radius: 10px;
         margin-top: 6%;
         /* background-color: rgb(194, 185, 185); */
@@ -435,9 +432,8 @@
     }
 
     .deliverDiv {
-        width: 90%;
-        height: 30%;
-        /* margin-top: 20px; */
+        width: 80%;
+        height: 43%;
         border-radius: 10px;
         /* margin-bottom: 3%; */
         background-color: white;
@@ -445,12 +441,12 @@
         align-items: center;
         flex-direction: column;
         box-shadow: 0 0 10px lightgray;
-        /* margin-bottom: 120px; */
+        
     }
 
     .deliverLogo {
         width: 58px;
-        height: 20px;
+        height: 58px;
         border-radius: 10px;
         margin-top: 6%;
         /* background-color: rgb(194, 185, 185); */

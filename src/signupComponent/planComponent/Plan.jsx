@@ -20,23 +20,23 @@ const Plan = () => {
           </div>
           <div className='MoneyContainer2'>
             <div className='Customer'>
-              <img src="./mark.png" alt="" />
+              <img src="./mark.png" alt="" className="confirmLogo"/>
               <h5>100% Customer Satisfaction</h5>
             </div>
             <div className='Pick'>
-              <img src="./mark.png" alt="" />
+              <img src="./mark.png" alt="" className="confirmLogo"/>
               <h5>Fast Pick and Delivery</h5>
             </div>
             <div className='Prices'>
-              <img src="./mark.png" alt="" />
+              <img src="./mark.png" alt="" className="confirmLogo"/>
               <h5>Affordable Prices</h5>
             </div>
             <div className='Affordable'>
-            <img src="./mark.png" alt="" />
+            <img src="./mark.png" alt="" className="confirmLogo"/>
               <h5>Affordable Prices</h5>
             </div>
             <div className='Affordable'>
-              <img src="./mark.png" alt="" />
+              <img src="./mark.png" alt="" className="confirmLogo"/>
               <h5>Affordable Prices</h5>
             </div>
           </div>
@@ -53,23 +53,23 @@ const Plan = () => {
           </div>
           <div className='MoneyContainer2'>
             <div className='Customer'>
-              <img src="./mark.png" alt="" />
+              <img src="./mark.png" alt="" className="confirmLogo"/>
               <h5>100% Customer Satisfaction</h5>
             </div>
             <div className='Pick'>
-              <img src="./mark.png" alt="" />
+              <img src="./mark.png" alt="" className="confirmLogo"/>
               <h5>Fast Pick and Delivery</h5>
             </div>
             <div className='Prices'>
-              <img src="./mark.png" alt="" />
+              <img src="./mark.png" alt="" className="confirmLogo"/>
               <h5>Affordable Prices</h5>
             </div>
             <div className='Affordable'>
-              <img src="./mark.png" alt="" />
+              <img src="./mark.png" alt="" className="confirmLogo"/>
               <h5>Affordable Prices</h5>
             </div>
             <div className='Affordable'>
-              <img src="./mark.png" alt="" />
+              <img src="./mark.png" alt="" className="confirmLogo"/>
               <h5>Affordable Prices</h5>
             </div>
           </div>
@@ -81,6 +81,7 @@ const Plan = () => {
       </section>
 
       <div className="blur_pic">
+
       </div>
     </div>
   )

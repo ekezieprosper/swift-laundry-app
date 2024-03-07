@@ -27,11 +27,11 @@ import Plan from './signupComponent/planComponent/Plan';
 import BusinessDashBoard from './businessDashBoardComponent/BusinessDashBoard';
 import BusinessOrder from './businessOrderComponentss/BusinessOrder';
 import BusinessDashboardLayout from './businessDashboardLayoutComponent/BusinessDashboardLayout';
-import ShopLogin from './ShopLoginComponent/ShopLogin';
 import Verification from './VerificationPage/Verify';
-import Click from './VerificationsPage/verifys';
 import OrderDetail from './orderDetailComponent/OrderDetail';
 import WashPage from './washPageComponent/WashPage';
+import Verifys from './verifyPage/verify';
+import VerifyEmail from './VerificationPage/verifyEmail';
 
 const router = createBrowserRouter([
   {
@@ -70,10 +70,7 @@ const router = createBrowserRouter([
   },
 
 
-  {
-    path: "/registerLogin",
-    element: <ShopLogin />
-  },
+  
 
 
   {
@@ -89,14 +86,14 @@ const router = createBrowserRouter([
 
 
   {
-    path: "/verifyEmail",
-    element: <Verification />
+    path: "/VerifyUser",
+    element: <VerifyEmail />
   },
 
 
   {
-    path: "/verifyEmails",
-    element: <Click />
+    path: "/emailVerification",
+    element: <Verification />
   },
 
   {

@@ -13,7 +13,7 @@ const Partner = () => {
     <div className='partnerWithUsMainDiv'>
       <div className='partnersContainer'>
         <div className='containerForImage'>
-          <img src="./person1.png" alt="" />
+          <img src="./person1.png" alt="" className='person2s'/>
           <img src="./person2.png" alt="" className='person2'/>
         </div>
         <div className='containerForText'>
@@ -23,27 +23,27 @@ const Partner = () => {
           </div>
           <div className='bookingContainer'>
             <div className='mark'>
-              <img src="./mark.png" alt="" />
+              <img src="./mark.png" alt="" className='confirmLogo'/>
             <h4>Online booking and appointment scheduling.</h4>
             </div>
             <div className='mark2'>
-              <img src="./mark.png" alt="" />
+              <img src="./mark.png" alt="" className='confirmLogo'/>
               <h4>Integration with payment gateways.</h4>
             </div>
             <div className='mark3'>
-              <img src="./mark.png" alt="" />
+              <img src="./mark.png" alt="" className='confirmLogo'/>
               <h4>Marketing and promotion capabilities.</h4>
             </div>
             <div className='mark4'>
-              <img src="./mark.png" alt="" />
+              <img src="./mark.png" alt="" className='confirmLogo'/>
               <h4>Analytics and reporting tools.</h4>
             </div>
             <div className='mark5'>
-              <img src="./mark.png" alt="" />
+              <img src="./mark.png" alt="" className='confirmLogo'/>
               <h4>Customizable profiles and services.</h4>
             </div>
             <div className='mark6'>
-              <img src="./mark.png" alt="" />
+              <img src="./mark.png" alt="" className='confirmLogo'/>
             <h4>Customizable profiles and services.</h4>
             </div>
           </div>

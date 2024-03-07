@@ -48,7 +48,7 @@
 .span h1 {
     height: 90%;
     width: 100%;
-    color: blue;
+    color: rgb(44, 143, 200);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
     display: flex;
@@ -147,9 +147,10 @@
     width: 50%;
     /* background: red; */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
     flex-direction: column;
+    /* margin-top: 10px; */
 }
 
 
@@ -174,13 +175,23 @@
 }
 
 
-.passwordInput {
+.addressy{
     height: 30%;
     width: 95%;
     padding-left: 10px;
     outline-color: rgb(190, 190, 255);
     border: 1px solid rgb(177, 175, 175);
     border-radius: 10px;
+    /* background: green; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.passwordInput {
+   border: none;
+   outline: none;
 }
 
 
@@ -225,7 +236,7 @@
 .alreadyHaveAccount b {
     height: 20%;
     width: 60%;
-    color: blue;
+    color:  rgb(44, 143, 200);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor: pointer;
     /* background: red; */
@@ -235,7 +246,7 @@
 
 
 
-@media screen and (width <=414px) {
+@media screen and (max-width:500px) {
     .wholebody {
         width: 100%;
         height: 100vh;
@@ -266,5 +277,41 @@
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: x-small;
     }
+
+    .registerdContainer {
+        height: 80%;
+        width: 65%;
+        background: white;
+        border-radius: 10px;
+        -webkit-box-shadow: -5px -7px 25px -3px rgba(204, 212, 247, 0.69);
+        -moz-box-shadow: -5px -7px 25px -3px rgba(189, 200, 249, 0.69);
+        box-shadow: -5px -7px 25px -3px rgba(189, 200, 249, 0.69);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: aqua; */
+    }
+
+    
+.span h1 {
+    height: 70%;
+    width: 90%;
+    /* background: green; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-size:20px;
+    
+}
+
+
+.alreadyHaveAccount {
+    height: 40%;
+    width: 95%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background: red; */
+}
 
 }

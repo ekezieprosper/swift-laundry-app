@@ -220,18 +220,17 @@
 }
 
 
-@media  screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
     .laundryShopMainDiv {
         width: 100%;
-        height: 225vh;
+        height: 205vh;
         /* margin-top: 38%; */
-        background-color: rgb(180, 198, 226);
-        margin-top: 10%;
+        /* background-color: rgb(180, 198, 226); */
     }
     
     .laundryTopDiv {
         width: 100%;
-        height: 10%;
+        height: 5%;
         display: flex;
         flex-direction: column;
         /* justify-content: center; */
@@ -257,20 +256,20 @@
         width: 100%;
         height: 100%;
         display: flex;
-        /* justify-content: space-between; */
+        justify-content: center;
         align-items: center;
         flex-direction: column;
-        gap: 5%;
+        gap: 1px;
         /* position: relative; */
         /* margin-top: 25px; */
         /* background-color: rgb(72, 122, 108); */
     }
     
     .pickUpDivs {
-        width: 90%;
-        height: 25%;
+        width: 80%;
+        height: 30%;
         border-radius: 5px;
-        margin-top: 3%; 
+        /* margin-top: 3%; */
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -318,8 +317,8 @@
     }
     
     .washDivs {
-        width: 90%;
-        height: 25%;
+        width: 80%;
+        height: 30%;
         border-radius: 5px;
         /* margin-bottom: 3%; */
         display: flex;
@@ -368,8 +367,8 @@
     }
     
     .deliverDivs {
-        width:90%;
-        height:25%;
+        width:80%;
+        height:30%;
         border-radius: 5px;
         /* margin-bottom: 3%; */
         background-color: white;
@@ -378,7 +377,6 @@
         align-items: center;
         flex-direction: cored;
         box-shadow: 0 0 7px lightgray;
-        margin-bottom: 50%;
     }
     
     

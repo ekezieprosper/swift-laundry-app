@@ -1,4 +1,4 @@
-.ourOfferMainDiv{
+.ourOfferMainDiv {
     width: 100%;
     height: 85vh;
     margin-top: 7%;
@@ -6,7 +6,7 @@
     position: relative;
 }
 
-.offerTopDiv{
+.offerTopDiv {
     width: 100%;
     height: 25%;
     display: flex;
@@ -15,19 +15,22 @@
     align-items: center;
     /* background-color: rgb(167, 160, 160); */
 }
-.offerTopDiv p{
+
+.offerTopDiv p {
     font-size: 17px;
     margin-top: 5%;
     /* background-color: rgb(214, 151, 151); */
 }
-.offerTopDiv samp{
+
+.offerTopDiv samp {
     font-size: 32px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     /* margin-top: 3%; */
     /* background-color: rgb(214, 151, 151); */
 }
-.offerBottomDiv{
+
+.offerBottomDiv {
     width: 100%;
     height: 75%;
     display: flex;
@@ -36,7 +39,8 @@
     gap: 70px;
     /* background-color: rgb(207, 201, 201); */
 }
-.saveTimeDiv{
+
+.saveTimeDiv {
     width: 23%;
     height: 65%;
     border-radius: 10px;
@@ -47,9 +51,10 @@
     background-color: white;
     box-shadow: 0 0 10px lightgray;
 }
-.saveTimeLogo{
-    width: 58px;
-    height: 58px;
+
+.saveTimeLogo {
+    width: 48px;
+    height: 48px;
     border-radius: 10px;
     margin-top: 6%;
     /* background-color: rgb(194, 185, 185); */
@@ -57,30 +62,33 @@
     justify-content: center;
     align-items: center;
 }
-.saveTimeDiv h2{
-   font-size: 18px;
-   padding-top: 16px;
+
+.saveTimeDiv h2 {
+    font-size: 18px;
+    padding-top: 16px;
 }
-.saveTimeDiv p{
-   font-size: 14px;
-   text-align: center;
-   padding-inline: 7%;
-   padding-top: 14px;
+
+.saveTimeDiv p {
+    font-size: 14px;
+    text-align: center;
+    padding-inline: 7%;
+    padding-top: 14px;
 }
-.payOnlineDiv{
+
+.payOnlineDiv {
     width: 23%;
-    height: 65%;
+    height: 70%;
     border-radius: 10px;
     margin-bottom: 3%;
     display: flex;
     align-items: center;
     flex-direction: column;
     background-color: white;
-    box-shadow: 0 0 10px lightgray;
 }
-.payOnlineLogo{
-    width: 58px;
-    height: 58px;
+
+.payOnlineLogo {
+    width: 48px;
+    height: 48px;
     border-radius: 10px;
     margin-top: 6%;
     /* background-color: rgb(194, 185, 185); */
@@ -88,17 +96,20 @@
     justify-content: center;
     align-items: center;
 }
-.payOnlineDiv h2{
-   font-size: 18px;
-   padding-top: 16px;
+
+.payOnlineDiv h2 {
+    font-size: 18px;
+    padding-top: 16px;
 }
-.payOnlineDiv p{
-   font-size: 14px;
-   text-align: center;
-   padding-inline: 7%;
-   padding-top: 14px;
+
+.payOnlineDiv p {
+    font-size: 14px;
+    text-align: center;
+    padding-inline: 7%;
+    padding-top: 14px;
 }
-.satisfactionDiv{
+
+.satisfactionDiv {
     width: 23%;
     height: 65%;
     border-radius: 10px;
@@ -109,9 +120,10 @@
     flex-direction: column;
     box-shadow: 0 0 10px lightgray;
 }
-.satisfactionLogo{
-    width: 58px;
-    height: 58px;
+
+.satisfactionLogo {
+    width: 48px;
+    height: 48px;
     border-radius: 10px;
     margin-top: 6%;
     /* background-color: rgb(194, 185, 185); */
@@ -119,47 +131,49 @@
     justify-content: center;
     align-items: center;
 }
-.satisfactionDiv h2{
-   font-size: 18px;
-   padding-top: 16px;
+
+.satisfactionDiv h2 {
+    font-size: 18px;
+    padding-top: 16px;
 }
-.satisfactionDiv p{
-   font-size: 14px;
-   text-align: center;
-   padding-inline: 7%;
-   padding-top: 14px;
+
+.satisfactionDiv p {
+    font-size: 14px;
+    text-align: center;
+    padding-inline: 7%;
+    padding-top: 14px;
 }
 
 
-.bubbles{
-    height:200px;
-    width:200px;
+.bubbles {
+    height: 200px;
+    width: 200px;
     position: absolute;
     top: 53px;
     right: 30px;
 }
 
 
-.bubble{
+.bubble {
     height: 200px;
     width: 200px;
     position: absolute;
     bottom: -50px;
-    left:6px;
+    left: 6px;
 }
 
 
 
 @media screen and (max-width:320px) {
-    .ourOfferMainDiv{
+    .ourOfferMainDiv {
         width: 100%;
         height: 150vh;
         /* margin-top: 20%; */
         background-color: lightgray;
         background: white;
     }
-    
-    .offerTopDiv{
+
+    .offerTopDiv {
         width: 100%;
         height: 25%;
         display: flex;
@@ -168,23 +182,26 @@
         align-items: center;
         /* background-color: rgb(167, 160, 160); */
         /* background: red; */
-        margin-top:40%;
+        margin-top: 40%;
 
     }
-    .offerTopDiv p{
+
+    .offerTopDiv p {
         font-size: 17px;
         margin-top: 5%;
         /* background-color: rgb(214, 151, 151); */
-        
+
     }
-    .offerTopDiv samp{
+
+    .offerTopDiv samp {
         font-size: 32px;
         font-family: 'Times New Roman', Times, serif;
         font-weight: bold;
         /* margin-top: 3%; */
         /* background-color: rgb(214, 151, 151); */
     }
-    .offerBottomDiv{
+
+    .offerBottomDiv {
         width: 100%;
         height: 75%;
         display: flex;
@@ -194,7 +211,8 @@
         gap: 25px;
         /* background-color: rgb(207, 201, 201); */
     }
-    .saveTimeDiv{
+
+    .saveTimeDiv {
         width: 75%;
         height: 40%;
         border-radius: 10px;
@@ -205,7 +223,8 @@
         background-color: white;
         box-shadow: 0 0 10px lightgray;
     }
-    .saveTimeLogo{
+
+    .saveTimeLogo {
         width: 58px;
         height: 58px;
         border-radius: 10px;
@@ -215,17 +234,20 @@
         justify-content: center;
         align-items: center;
     }
-    .saveTimeDiv h2{
-       font-size: 18px;
-       padding-top: 16px;
+
+    .saveTimeDiv h2 {
+        font-size: 18px;
+        padding-top: 16px;
     }
-    .saveTimeDiv p{
-       font-size: 14px;
-       text-align: center;
-       padding-inline: 7%;
-       padding-top: 14px;
+
+    .saveTimeDiv p {
+        font-size: 14px;
+        text-align: center;
+        padding-inline: 7%;
+        padding-top: 14px;
     }
-    .payOnlineDiv{
+
+    .payOnlineDiv {
         width: 75%;
         height: 40%;
         border-radius: 10px;
@@ -236,7 +258,8 @@
         background-color: white;
         box-shadow: 0 0 10px lightgray;
     }
-    .payOnlineLogo{
+
+    .payOnlineLogo {
         width: 58px;
         height: 58px;
         border-radius: 10px;
@@ -246,17 +269,20 @@
         justify-content: center;
         align-items: center;
     }
-    .payOnlineDiv h2{
-       font-size: 18px;
-       padding-top: 16px;
+
+    .payOnlineDiv h2 {
+        font-size: 18px;
+        padding-top: 16px;
     }
-    .payOnlineDiv p{
-       font-size: 14px;
-       text-align: center;
-       padding-inline: 7%;
-       padding-top: 14px;
+
+    .payOnlineDiv p {
+        font-size: 14px;
+        text-align: center;
+        padding-inline: 7%;
+        padding-top: 14px;
     }
-    .satisfactionDiv{
+
+    .satisfactionDiv {
         width: 75%;
         height: 40%;
         border-radius: 10px;
@@ -267,7 +293,8 @@
         flex-direction: column;
         box-shadow: 0 0 10px lightgray;
     }
-    .satisfactionLogo{
+
+    .satisfactionLogo {
         width: 58px;
         height: 58px;
         border-radius: 10px;
@@ -277,52 +304,58 @@
         justify-content: center;
         align-items: center;
     }
-    .satisfactionDiv h2{
-       font-size: 18px;
-       padding-top: 16px;
+
+    .satisfactionDiv h2 {
+        font-size: 18px;
+        padding-top: 16px;
     }
-    .satisfactionDiv p{
-       font-size: 14px;
-       text-align: center;
-       padding-inline: 7%;
-       padding-top: 14px;
+
+    .satisfactionDiv p {
+        font-size: 14px;
+        text-align: center;
+        padding-inline: 7%;
+        padding-top: 14px;
     }
-    
-    
-    
+
+
+
 }
 
 
 @media screen and (max-width: 500px) {
-    .ourOfferMainDiv{
+    .ourOfferMainDiv {
         width: 100%;
-        height: 170vh;
+        height: 200vh;
         margin-top: 27%;
         background-color: none;
     }
-    
-    .offerTopDiv{
+
+    .offerTopDiv {
         width: 100%;
-        height: 10%;
+        height: 7%;
         display: flex;
         flex-direction: column;
         /* justify-content: center; */
         align-items: center;
         /* background-color: rgb(167, 160, 160); */
+        margin-bottom: 10px;
     }
-    .offerTopDiv p{
+
+    .offerTopDiv p {
         font-size: 17px;
         margin-top: 5%;
         /* background-color: rgb(214, 151, 151); */
     }
-    .offerTopDiv samp{
+
+    .offerTopDiv samp {
         font-size: 32px;
         font-family: 'Times New Roman', Times, serif;
         font-weight: bold;
         /* margin-top: 3%; */
         /* background-color: rgb(214, 151, 151); */
     }
-    .offerBottomDiv{
+
+    .offerBottomDiv {
         width: 100%;
         height: 75%;
         display: flex;
@@ -332,9 +365,10 @@
         gap: 30px;
         /* background-color: rgb(207, 201, 201); */
     }
-    .saveTimeDiv{
-        width: 90%;
-        height: 33%;
+
+    .saveTimeDiv {
+        width: 80%;
+        height: 35%;
         border-radius: 10px;
         margin-bottom: 3%;
         display: flex;
@@ -343,7 +377,8 @@
         background-color: white;
         box-shadow: 0 0 10px lightgray;
     }
-    .saveTimeLogo{
+
+    .saveTimeLogo {
         width: 58px;
         height: 58px;
         border-radius: 10px;
@@ -353,28 +388,32 @@
         justify-content: center;
         align-items: center;
     }
-    .saveTimeDiv h2{
-       font-size: 18px;
-       padding-top: 16px;
+
+    .saveTimeDiv h2 {
+        font-size: 18px;
+        padding-top: 16px;
     }
-    .saveTimeDiv p{
-       font-size: 14px;
-       text-align: center;
-       padding-inline: 7%;
-       padding-top: 14px;
+
+    .saveTimeDiv p {
+        font-size: 14px;
+        text-align: center;
+        padding-inline: 7%;
+        padding-top: 14px;
     }
-    .payOnlineDiv{
-        width: 90%;
-        height: 33%;
+
+    .payOnlineDiv {
+        width: 80%;
+        height: 35%;
         border-radius: 10px;
-        margin-bottom: 3%;
+        /* margin-bottom: 3%; */
         display: flex;
         align-items: center;
         flex-direction: column;
         background-color: white;
         box-shadow: 0 0 10px lightgray;
     }
-    .payOnlineLogo{
+
+    .payOnlineLogo {
         width: 58px;
         height: 58px;
         border-radius: 10px;
@@ -384,63 +423,69 @@
         justify-content: center;
         align-items: center;
     }
-    .payOnlineDiv h2{
-       font-size: 18px;
-       padding-top: 16px;
+
+    .payOnlineDiv h2 {
+        font-size: 18px;
+        padding-top: 16px;
     }
-    .payOnlineDiv p{
-       font-size: 14px;
-       text-align: center;
-       padding-inline: 7%;
-       padding-top: 14px;
+
+    .payOnlineDiv p {
+        font-size: 14px;
+        text-align: center;
+        padding-inline: 7%;
+        padding-top: 14px;
     }
-    .satisfactionDiv{
-        width: 90%;
-        height: 33%;
+
+    .satisfactionDiv {
+        width: 80%;
+        height: 35%;
         border-radius: 10px;
-        margin-bottom: 3%;
+        /* margin-bottom: 3%; */
         background-color: white;
         display: flex;
         align-items: center;
         flex-direction: column;
         box-shadow: 0 0 10px lightgray;
     }
-    .satisfactionLogo{
+
+    .satisfactionLogo {
         width: 58px;
         height: 58px;
         border-radius: 10px;
-        margin-top: 6%;
+        /* margin-top: 6%; */
         /* background-color: rgb(194, 185, 185); */
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .satisfactionDiv h2{
-       font-size: 18px;
-       padding-top: 16px;
-    }
-    .satisfactionDiv p{
-       font-size: 14px;
-       text-align: center;
-       padding-inline: 7%;
-       padding-top: 14px;
+
+    .satisfactionDiv h2 {
+        font-size: 18px;
+        padding-top: 16px;
     }
 
-
-.bubbles{
-    height:95px;
-    width:95px;
-    position: absolute;
-    top: 6px;
-    right:10px;
-}
+    .satisfactionDiv p {
+        font-size: 14px;
+        text-align: center;
+        padding-inline: 7%;
+        padding-top: 14px;
+    }
 
 
-.bubble{
-    height: 150px;
-    width: 150px;
-    position: absolute;
-    bottom:90px;
-    left:-6px;
-}
+    .bubbles {
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        top: -13px;
+        right: -30px;
+    }
+
+
+    .bubble {
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        bottom: -20px;
+        left: -20px;
+    }
 }

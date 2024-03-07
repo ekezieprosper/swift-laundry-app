@@ -19,17 +19,17 @@ const Footer = () => {
     <div className='footerBody'>
       <div className='footerLeft'>
         <div className='footerLeftWrapper'>
-          <img src="./grace.png" alt="" />
+          <img src="./grace.png" alt="" className='swiftLaundryLogo'/>
           <div className='footerLocation'>
-            <img src="./location.png" alt="" />
+            <img src="./location.png" alt="" className='swiftLaundryLogo1' />
             <h5>161 Muyibi Street, Olodi-Apapa, Lagos</h5>
           </div>
           <div className='footerContact'>
-            <img src="./contact.png" alt="" />
+            <img src="./contact.png" alt="" className='swiftLaundryLogo2'/>
             <h5>07081101605</h5>
           </div>
           <div className='footerMessage'>
-            <img src="./message.png" alt="" />
+            <img src="./message.png" alt="" className='swiftLaundryLogo1'/>
             <h5>swiftlaundry@gmail.com</h5>
           </div>
         </div>

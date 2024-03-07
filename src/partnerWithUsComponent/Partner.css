@@ -1,4 +1,4 @@
-.partnerWithUsMainDiv{
+.partnerWithUsMainDiv {
     width: 100%;
     height: 98vh;
     background-color: lavender;
@@ -8,7 +8,7 @@
 }
 
 
-.partnersContainer{
+.partnersContainer {
     height: 90%;
     width: 80%;
     /* background: red; */
@@ -18,42 +18,42 @@
 }
 
 
-.mark{
+.mark {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 69%;
 }
 
-.mark2{
+.mark2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width:58%;
+    width: 58%;
 }
 
-.mark3{
+.mark3 {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 62%;
 }
 
-.mark4{
+.mark4 {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 50%;
 }
 
-.mark5{
+.mark5 {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 58%;
 }
 
-.mark6{
+.mark6 {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -61,7 +61,7 @@
 }
 
 
-.containerForImage{
+.containerForImage {
     height: 100%;
     width: 50%;
     /* background: #000; */
@@ -72,7 +72,7 @@
 }
 
 
-.containerForText{
+.containerForText {
     height: 80%;
     width: 50%;
     /* background: green; */
@@ -82,16 +82,21 @@
     flex-direction: column;
 }
 
-
-.person2{
-   position: absolute;
-   top: 120px;
-   right: 80px;
-   /* z-index: 1; */
+.person2s {
+    height: 70%;
 }
 
 
-.registerBusinessContainer{
+.person2 {
+    height: 70%;
+    position: absolute;
+    top: 120px;
+    right: 80px;
+    /* z-index: 1; */
+}
+
+
+.registerBusinessContainer {
     height: 20%;
     width: 90%;
     /* background: red; */
@@ -102,14 +107,14 @@
 }
 
 
-.registerBusinessContainer p{
+.registerBusinessContainer p {
 
     /* background: red; */
     color: rgb(64, 176, 241);
 }
 
 
-.bookingContainer{
+.bookingContainer {
     height: 60%;
     width: 90%;
     /* background: green; */
@@ -120,7 +125,7 @@
 }
 
 
-.registerdBtn{
+.registerdBtn {
     height: 20%;
     width: 90%;
     /* background: yellow; */
@@ -130,18 +135,19 @@
 }
 
 
-.btnForRegistration{
+.btnForRegistration {
     height: 60%;
     width: 40%;
-    background:#4DC6E1;
+    background: #4DC6E1;
     border: none;
     color: white;
     border-radius: 10px;
+    margin-left: 20px;
 }
 
 
-@media screen and (width:320px) {
-    .partnerWithUsMainDiv{
+@media screen and (max-width:320px) {
+    .partnerWithUsMainDiv {
         width: 100%;
         height: 98vh;
         background-color: lavender;
@@ -150,9 +156,9 @@
         align-items: center;
         margin-top: 95%;
     }
-    
-    
-    .partnersContainer{
+
+
+    .partnersContainer {
         height: 90%;
         width: 90%;
         /* background: red; */
@@ -160,9 +166,9 @@
         justify-content: center;
         align-items: center;
     }
-    
-    
-    .containerForImage{
+
+
+    .containerForImage {
         height: 100%;
         width: 50%;
         /* background: #000; */
@@ -171,9 +177,9 @@
         align-items: center;
         position: relative;
     }
-    
-    
-    .containerForText{
+
+
+    .containerForText {
         height: 100%;
         width: 100%;
         /* background: green; */
@@ -183,17 +189,17 @@
         flex-direction: column;
         margin-top: 10px;
     }
-    
-    
-    .person2{
-       position: absolute;
-       top: 80px;
-       right: 6px;
-       /* z-index: 1; */
+
+
+    .person2 {
+        position: absolute;
+        top: 80px;
+        right: 6px;
+        /* z-index: 1; */
     }
-    
-    
-    .registerBusinessContainer{
+
+
+    .registerBusinessContainer {
         height: 20%;
         width: 90%;
         /* background: red; */
@@ -202,20 +208,21 @@
         align-items: flex-start;
         flex-direction: column;
     }
-    .registerBusinessContainer h1{
-       font-size: 20px;
-       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    .registerBusinessContainer h1 {
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-    
-    
-    .registerBusinessContainer p{
-    
+
+
+    .registerBusinessContainer p {
+
         /* background: red; */
         color: rgb(64, 176, 241);
     }
-    
-    
-    .bookingContainer{
+
+
+    .bookingContainer {
         height: 60%;
         width: 90%;
         /* background: green; */
@@ -224,14 +231,14 @@
         align-items: flex-start;
         flex-direction: column;
     }
-    
-    .bookingContainer h4{
-       font-size: 12px;
-       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    .bookingContainer h4 {
+        font-size: 12px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-    
-    
-    .registerdBtn{
+
+
+    .registerdBtn {
         height: 20%;
         width: 90%;
         /* background: yellow; */
@@ -239,12 +246,177 @@
         align-items: center;
         justify-content: flex-start;
     }
-    
-    
-    .btnForRegistration{
+
+
+    .btnForRegistration {
         height: 60%;
         width: 50%;
-        background:#4DC6E1;
+        background: #4DC6E1;
+        border: none;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .partnerWithUsMainDiv {
+        width: 100%;
+        height: 98vh;
+        background-color: lavender;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: 95%; */
+    }
+
+
+    .partnersContainer {
+        height: 90%;
+        width: 90%;
+        /* background: red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mark {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        /* background: blue; */
+        font-size: 10px;
+    }
+
+    .mark2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 90%;
+        /* background: blue; */
+        font-size: 14px;
+    }
+
+    .mark3 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 88%;
+        /* background: blue; */
+        font-size: 14px;
+    }
+
+    .mark4 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 70%;
+        /* background: blue; */
+        font-size: 14px;
+    }
+
+    .mark5 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 83%;
+        /* background: blue; */
+        font-size: 14px;
+    }
+
+    .mark6 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 80%;
+        /* background: blue; */
+        font-size: 14px;
+    }
+
+
+    .containerForImage {
+        height: 100%;
+        width: 50%;
+        /* background: #000; */
+        display: none;
+        justify-content: flex-start;
+        align-items: center;
+        position: relative;
+    }
+
+
+    .containerForText {
+        height: 100%;
+        width: 100%;
+        /* background: green; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+
+    .person2 {
+        position: absolute;
+        top: 80px;
+        right: 6px;
+        /* z-index: 1; */
+    }
+
+
+    .registerBusinessContainer {
+        height: 20%;
+        width: 90%;
+        /* background: red; */
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .registerBusinessContainer h1 {
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+
+    .registerBusinessContainer p {
+
+        /* background: red; */
+        color: rgb(64, 176, 241);
+    }
+
+
+    .bookingContainer {
+        height: 60%;
+        width: 90%;
+        /* background: green; */
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .bookingContainer h4 {
+        font-size: 12px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+
+    .registerdBtn {
+        height: 20%;
+        width: 90%;
+        /* background: yellow; */
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+
+    .btnForRegistration {
+        height: 60%;
+        width: 50%;
+        background: #4DC6E1;
         border: none;
         border-radius: 10px;
     }
@@ -252,7 +424,7 @@
 
 
 @media screen and (max-width:500px) {
-    .partnerWithUsMainDiv{
+    .partnerWithUsMainDiv {
         width: 100%;
         height: 120vh;
         background-color: lavender;
@@ -260,9 +432,9 @@
         justify-content: center;
         align-items: center;
     }
-    
-    
-    .partnersContainer{
+
+
+    .partnersContainer {
         height: 95%;
         width: 80%;
         background: lavender;
@@ -270,9 +442,9 @@
         justify-content: center;
         align-items: center;
     }
-    
-    
-    .containerForImage{
+
+
+    .containerForImage {
         height: 100%;
         width: 50%;
         /* background: #000; */
@@ -282,9 +454,63 @@
         position: relative;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-    
-    
-    .containerForText{
+
+    .mark {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        /* background: blue; */
+        font-size: 14px;
+    }
+
+    .mark2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 83%;
+        /* background: blue; */
+        font-size: 14px;
+    }
+
+    .mark3 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 88%;
+        /* background: blue; */
+        font-size: 14px;
+    }
+
+    .mark4 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 70%;
+        /* background: blue; */
+        font-size: 14px;
+    }
+
+    .mark5 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 83%;
+        /* background: blue; */
+        font-size: 14px;
+    }
+
+    .mark6 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 80%;
+        /* background: blue; */
+        font-size: 14px;
+    }
+
+
+    .containerForText {
         height: 100%;
         width: 90%;
         /* background: green; */
@@ -293,49 +519,50 @@
         align-items: center;
         flex-direction: column;
     }
-    
-    
-    .person2{
-       position: absolute;
-       top: 80px;
-       right: 6px;
-       /* z-index: 1; */
+
+
+    .person2 {
+        position: absolute;
+        top: 80px;
+        right: 6px;
+        /* z-index: 1; */
     }
-    
-    
-    .registerBusinessContainer{
-        height: 10%;
-        width: 100%;
+
+
+    .registerBusinessContainer {
+        height: 20%;
+        width: 95%;
         /* background: red; */
         display: flex;
         justify-content: space-around;
         align-items: flex-start;
         flex-direction: column;
     }
-    .registerBusinessContainer h1{
-        font-size: 23px;
+
+    .registerBusinessContainer h1 {
+        font-size: 25px;
     }
-    
-    
-    .registerBusinessContainer p{
-    
+
+
+    .registerBusinessContainer p {
+
         /* background: red; */
         color: rgb(64, 176, 241);
     }
-    
-    
-    .bookingContainer{
-        height: 40%;
-        width: 100%;
-        /* background: green; */
+
+
+    .bookingContainer {
+        height: 60%;
+        width: 90%;
+        /* background:rebeccapurple; */
         display: flex;
         justify-content: space-around;
         align-items: flex-start;
         flex-direction: column;
     }
-    
-    
-    .registerdBtn{
+
+
+    .registerdBtn {
         height: 20%;
         width: 90%;
         /* background: yellow; */
@@ -343,71 +570,15 @@
         align-items: center;
         justify-content: flex-start;
     }
-    
-    
-    .btnForRegistration{
-        height: 30%;
-        width: 57%;
-        background:#4DC6E1;
+
+
+    .btnForRegistration {
+        height: 45%;
+        width: 65%;
+        background: #4DC6E1;
         color: white;
         border: none;
         border-radius: 10px;
-        margin-right: 30px;
     }
-    .mark{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        width: 98%;
-        /* background: red; */
-        font-size: 12px;
-    }
-    
-    .mark2{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        width: 80%;
-        /* background: red; */
-        font-size: 12px;
-    }
-    
-    .mark3{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        width: 87%;
-        /* background: yellow; */
-        font-size: 12px;
-    }
-    
-    .mark4{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        width: 70%;
-        /* background: red; */
-        font-size: 12px;
-    }
-    
-    .mark5{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        width: 80%;
-        /* background: red; */
-        font-size: 12px;
-    }
-    
-    .mark6{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        width: 80%;
-        /* background: red; */
-        font-size: 12px;
-    }
-    
-    
-    
+
 }
