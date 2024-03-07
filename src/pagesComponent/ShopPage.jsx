@@ -10,7 +10,7 @@ const CardComponent = () => {
   //   const yourShops = e.target.value
   //   setShopsPage(yourShops)
   // }
-  const url = "https://swiftlaundry.vercel.app/get-my-shops"
+  const url = "https://swift-laundry.vercel.app/get-my-shops"
   const data = { shops: shopsPage }
 
   const handleShops = async () => {
