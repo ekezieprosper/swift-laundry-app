@@ -26,7 +26,7 @@ import DashBoard from './dashBoardComponent/DashBoard';
 import Plan from './signupComponent/planComponent/Plan';
 import BusinessDashBoard from './businessDashBoardComponent/BusinessDashBoard';
 import BusinessOrder from './businessOrderComponentss/BusinessOrder';
-import BusinessDashboardLayout from './businessDashboardLayoutComponent/BusinessDashboardLayout';
+import BusinessDashboardLayout from './businessDashboardLayoutComponent';
 import Verification from './VerificationPage/Verify';
 import OrderDetail from './orderDetailComponent/OrderDetail';
 import WashPage from './washPageComponent/WashPage';
