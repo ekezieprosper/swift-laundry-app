@@ -78,7 +78,7 @@ const RegisterSignUp = () => {
         text: response.data?.message,
         icon: "success"
       });
-      navigate("/registerLogin")
+      navigate("/businessDashboard")
       localStorage.setItem('admindata', JSON.stringify(response.data?.data))
 
     } catch (err) {
