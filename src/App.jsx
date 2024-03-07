@@ -113,10 +113,10 @@ const router = createBrowserRouter([
         path: "/orderDetail/:id",
         element: <OrderDetail />
       },
-      {
-        path: "/subscribe",
-        element: <Subscribe />
-      },
+      // {
+      //   path: "/subscribe",
+      //   element: <Subscribe />
+      // },
       {
         path: "/washPage/:id",
         element: <WashPage />
