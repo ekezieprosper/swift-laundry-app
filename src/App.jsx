@@ -32,6 +32,7 @@ import Verification from './VerificationPage/Verify';
 import Click from './VerificationsPage/verifys';
 import OrderDetail from './orderDetailComponent/OrderDetail';
 import WashPage from './washPageComponent/WashPage';
+import BusinessSubscribe from './businessSubscribeComponent/BusinessSubscribe';
 
 const router = createBrowserRouter([
   {
@@ -140,16 +141,13 @@ const router = createBrowserRouter([
         element: <BusinessOrder />
       },
       {
-        path: "/businessUser",
-        element: <Subscribe />
-      },
-      {
         path: "/businessSubscribe",
-        element: <Subscribe />
+        element: <BusinessSubscribe />
       },
 
     ]
   },
+
 ]);
 
 
