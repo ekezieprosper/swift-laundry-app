@@ -83,6 +83,7 @@ const RegisterSignUp = () => {
 
     } catch (err) {
       if (err.response) {
+        
         Swal.fire({
           icon: "error",
           title: "Oops...",

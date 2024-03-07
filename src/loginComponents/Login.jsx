@@ -27,7 +27,7 @@ const Login = () => {
   const navigate = useNavigate()
 
   const url = "https://swift-laundry.onrender.com/sign-in"
-  const data = { email, password }
+  const data = { email:email, password }
   const handleSubmitForm = async (e) => {
     e.preventDefault();
 
